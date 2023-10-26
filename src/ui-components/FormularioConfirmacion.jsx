@@ -10,20 +10,7 @@ import { getOverrideProps } from "@aws-amplify/ui-react/internal";
 import { Alert, Button, Flex, Text, TextField } from "@aws-amplify/ui-react";
 import MyIcon from "./MyIcon";
 export default function FormularioConfirmacion(props) {
-  const {
-    onClickBack,
-    loaderState,
-    number,
-    date,
-    amount,
-    Action,
-    ActionFin,
-    alertState,
-    nextURI,
-    prevURI,
-    overrides,
-    ...rest
-  } = props;
+  const { overrides, ...rest } = props;
   return (
     <Flex
       gap="32px"
@@ -60,7 +47,6 @@ export default function FormularioConfirmacion(props) {
           justifyContent="unset"
           shrink="0"
           position="relative"
-          onClick={onClickBack}
           {...getOverrideProps(overrides, "Group 192")}
         >
           <Text
@@ -130,8 +116,6 @@ export default function FormularioConfirmacion(props) {
           isDisabled={false}
           labelHidden={false}
           variation="quiet"
-          defaultValue={number}
-          disabled={true}
           {...getOverrideProps(overrides, "TextField39693455")}
         ></TextField>
         <TextField
@@ -145,8 +129,6 @@ export default function FormularioConfirmacion(props) {
           isDisabled={false}
           labelHidden={false}
           variation="quiet"
-          defaultValue={date}
-          disabled={true}
           {...getOverrideProps(overrides, "TextField39693456")}
         ></TextField>
         <TextField
@@ -160,8 +142,6 @@ export default function FormularioConfirmacion(props) {
           isDisabled={false}
           labelHidden={false}
           variation="quiet"
-          defaultValue={amount}
-          disabled={true}
           {...getOverrideProps(overrides, "TextField39693457")}
         ></TextField>
       </Flex>
@@ -201,7 +181,6 @@ export default function FormularioConfirmacion(props) {
             isDisabled={false}
             variation="primary"
             children="Comprobante"
-            onClick={Action}
             {...getOverrideProps(overrides, "Button39693460")}
           ></Button>
           <Button
@@ -217,7 +196,6 @@ export default function FormularioConfirmacion(props) {
             isDisabled={false}
             variation="primary"
             children="Finalizar"
-            onClick={ActionFin}
             {...getOverrideProps(overrides, "Button39693461")}
           ></Button>
         </Flex>
@@ -229,7 +207,6 @@ export default function FormularioConfirmacion(props) {
           variation="success"
           isDismissible={true}
           hasIcon={false}
-          hidden={alertState}
           children="Recuerda que el pago de tu crédito se verá reflejado en tu extracto bancario."
           {...getOverrideProps(overrides, "Alert")}
         ></Alert>

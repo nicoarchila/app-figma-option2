@@ -10,23 +10,7 @@ import { getOverrideProps } from "@aws-amplify/ui-react/internal";
 import { Button, Flex, Loader, Text, TextField } from "@aws-amplify/ui-react";
 import MyIcon from "./MyIcon";
 export default function FormularioVerificacion(props) {
-  const {
-    onClickBack,
-    loaderState = "loader-dis",
-    onChangePay,
-    tarjetProd,
-    onChangeDeb,
-    sourceProd,
-    onChangeInput,
-    payAmount,
-    trxCost = "$ -",
-    onClickCancel,
-    onClickNext,
-    nextURI,
-    prevURI,
-    overrides,
-    ...rest
-  } = props;
+  const { overrides, ...rest } = props;
   return (
     <Flex
       gap="32px"
@@ -63,7 +47,6 @@ export default function FormularioVerificacion(props) {
           justifyContent="unset"
           shrink="0"
           position="relative"
-          onClick={onClickBack}
           {...getOverrideProps(overrides, "Group 192")}
         >
           <Text
@@ -128,7 +111,6 @@ export default function FormularioVerificacion(props) {
           alignSelf="stretch"
           size="large"
           variation="linear"
-          className={loaderState}
           {...getOverrideProps(overrides, "Loader")}
         ></Loader>
         <TextField
@@ -142,9 +124,6 @@ export default function FormularioVerificacion(props) {
           isDisabled={false}
           labelHidden={false}
           variation="quiet"
-          disabled={true}
-          value={tarjetProd}
-          onChange={onChangePay}
           {...getOverrideProps(overrides, "TextField39693124")}
         ></TextField>
         <TextField
@@ -158,9 +137,6 @@ export default function FormularioVerificacion(props) {
           isDisabled={false}
           labelHidden={false}
           variation="quiet"
-          disabled={true}
-          value={sourceProd}
-          onChange={onChangeDeb}
           {...getOverrideProps(overrides, "TextField39693125")}
         ></TextField>
         <TextField
@@ -174,9 +150,6 @@ export default function FormularioVerificacion(props) {
           isDisabled={false}
           labelHidden={false}
           variation="quiet"
-          disabled={true}
-          value={payAmount}
-          onChange={onChangeInput}
           {...getOverrideProps(overrides, "TextField39693126")}
         ></TextField>
         <TextField
@@ -190,8 +163,6 @@ export default function FormularioVerificacion(props) {
           isDisabled={false}
           labelHidden={false}
           variation="quiet"
-          disabled={true}
-          value={trxCost}
           {...getOverrideProps(overrides, "TextField40562935")}
         ></TextField>
       </Flex>
@@ -231,7 +202,6 @@ export default function FormularioVerificacion(props) {
             isDisabled={false}
             variation="primary"
             children="Cancelar"
-            onClick={onClickCancel}
             {...getOverrideProps(overrides, "Button39693129")}
           ></Button>
           <Button
@@ -247,7 +217,6 @@ export default function FormularioVerificacion(props) {
             isDisabled={false}
             variation="primary"
             children="Continuar"
-            onClick={onClickNext}
             {...getOverrideProps(overrides, "Button39693130")}
           ></Button>
         </Flex>

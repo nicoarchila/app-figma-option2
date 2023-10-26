@@ -16,8 +16,6 @@ export declare type NavBarHeaderMobileOverridesProps = {
     rectangulo?: PrimitiveOverrideProps<ViewProps>;
 } & EscapeHatchProps;
 export declare type NavBarHeaderMobileProps = React.PropsWithChildren<Partial<FlexProps> & {
-    menuBtn?: React.ReactNode;
-} & {
     overrides?: NavBarHeaderMobileOverridesProps | undefined | null;
 }>;
 export default function NavBarHeaderMobile(props: NavBarHeaderMobileProps): React.ReactElement;

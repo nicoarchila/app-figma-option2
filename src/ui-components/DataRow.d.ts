@@ -15,8 +15,6 @@ export declare type DataRowOverridesProps = {
     value387012412?: PrimitiveOverrideProps<TextProps>;
 } & EscapeHatchProps;
 export declare type DataRowProps = React.PropsWithChildren<Partial<FlexProps> & {
-    date?: String;
-} & {
     overrides?: DataRowOverridesProps | undefined | null;
 }>;
 export default function DataRow(props: DataRowProps): React.ReactElement;

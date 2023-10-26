@@ -18,27 +18,7 @@ import {
 } from "@aws-amplify/ui-react";
 import MyIcon from "./MyIcon";
 export default function FormularioConfiguracion(props) {
-  const {
-    loaderState = "loader-dis",
-    onTargetProdChange,
-    targetProduct,
-    paymentAmount,
-    paymentDate,
-    onDefaultAmountClick,
-    paymentValue,
-    onOtherAmountChange,
-    onSourceProdChange,
-    sourceProdList,
-    cancel,
-    onClickBtn,
-    onClickBack,
-    onOtherAmountClick,
-    amountState,
-    nextURI,
-    prevURI,
-    overrides,
-    ...rest
-  } = props;
+  const { overrides, ...rest } = props;
   return (
     <Flex
       gap="32px"
@@ -75,7 +55,6 @@ export default function FormularioConfiguracion(props) {
           justifyContent="unset"
           shrink="0"
           position="relative"
-          onClick={onClickBack}
           {...getOverrideProps(overrides, "Group 192")}
         >
           <Text
@@ -126,7 +105,6 @@ export default function FormularioConfiguracion(props) {
           alignSelf="stretch"
           size="large"
           variation="linear"
-          className={loaderState}
           {...getOverrideProps(overrides, "Loader")}
         ></Loader>
         <Flex
@@ -149,13 +127,11 @@ export default function FormularioConfiguracion(props) {
             grow="1"
             shrink="1"
             basis="0"
-            placeholder={targetProduct}
+            placeholder=""
             size="default"
             isDisabled={false}
             labelHidden={false}
             variation="default"
-            disabled={true}
-            onChange={onTargetProdChange}
             {...getOverrideProps(overrides, "SelectField39692657")}
           ></SelectField>
         </Flex>
@@ -177,30 +153,26 @@ export default function FormularioConfiguracion(props) {
           width="unset"
           height="unset"
           label="Deuda a la fecha"
-          placeholder=" "
+          placeholder="$18.875.902,00"
           shrink="0"
           alignSelf="stretch"
           size="default"
           isDisabled={false}
           labelHidden={false}
           variation="quiet"
-          disabled={true}
-          value={paymentAmount}
           {...getOverrideProps(overrides, "TextField39692659")}
         ></TextField>
         <TextField
           width="unset"
           height="unset"
           label="Fecha límite de pago"
-          placeholder=" "
+          placeholder="04/07/2023"
           shrink="0"
           alignSelf="stretch"
           size="default"
           isDisabled={false}
           labelHidden={false}
           variation="quiet"
-          disabled={true}
-          value={paymentDate}
           {...getOverrideProps(overrides, "TextField39692660")}
         ></TextField>
         <Flex
@@ -226,7 +198,6 @@ export default function FormularioConfiguracion(props) {
             isDisabled={false}
             labelPosition="end"
             children="Pago de cuota mensual  "
-            onClick={onDefaultAmountClick}
             {...getOverrideProps(overrides, "Radio39692662")}
           ></Radio>
           <Text
@@ -248,8 +219,7 @@ export default function FormularioConfiguracion(props) {
             right="0px"
             padding="0px 0px 0px 0px"
             whiteSpace="pre-wrap"
-            placeholder=" "
-            children={paymentValue}
+            children="$785.902,00"
             {...getOverrideProps(overrides, "label")}
           ></Text>
         </Flex>
@@ -262,7 +232,6 @@ export default function FormularioConfiguracion(props) {
           isDisabled={false}
           labelPosition="end"
           children="Otro monto"
-          onClick={onOtherAmountClick}
           {...getOverrideProps(overrides, "Radio39692664")}
         ></Radio>
         <TextField
@@ -276,8 +245,6 @@ export default function FormularioConfiguracion(props) {
           isDisabled={true}
           labelHidden={true}
           variation="default"
-          disabled={amountState}
-          onChange={onOtherAmountChange}
           {...getOverrideProps(overrides, "TextField39692665")}
         ></TextField>
         <Flex
@@ -305,8 +272,6 @@ export default function FormularioConfiguracion(props) {
             isDisabled={false}
             labelHidden={false}
             variation="default"
-            options={sourceProdList}
-            onChange={onSourceProdChange}
             {...getOverrideProps(overrides, "SelectField39692667")}
           ></SelectField>
         </Flex>
@@ -347,7 +312,6 @@ export default function FormularioConfiguracion(props) {
             isDisabled={false}
             variation="primary"
             children="Cancelar"
-            onClick={cancel}
             {...getOverrideProps(overrides, "Button39692670")}
           ></Button>
           <Button
@@ -363,7 +327,6 @@ export default function FormularioConfiguracion(props) {
             isDisabled={false}
             variation="primary"
             children="Continuar"
-            onClick={onClickBtn}
             {...getOverrideProps(overrides, "Button39692671")}
           ></Button>
         </Flex>

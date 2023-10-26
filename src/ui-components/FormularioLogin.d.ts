@@ -18,8 +18,6 @@ export declare type FormularioLoginOverridesProps = {
     "Registrarte aqu\u00ED"?: PrimitiveOverrideProps<TextProps>;
 } & EscapeHatchProps;
 export declare type FormularioLoginProps = React.PropsWithChildren<Partial<ViewProps> & {
-    login?: React.ReactNode;
-} & {
     overrides?: FormularioLoginOverridesProps | undefined | null;
 }>;
 export default function FormularioLogin(props: FormularioLoginProps): React.ReactElement;

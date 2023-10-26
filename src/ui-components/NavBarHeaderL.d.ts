@@ -8,7 +8,6 @@ import * as React from "react";
 import { EscapeHatchProps } from "@aws-amplify/ui-react/internal";
 import { LogoProps } from "./Logo";
 import { ButtonProps, FlexProps, TextProps } from "@aws-amplify/ui-react";
-import { SyntheticEvent } from "react";
 export declare type PrimitiveOverrideProps<T> = Partial<T> & React.DOMAttributes<HTMLDivElement>;
 export declare type NavBarHeaderLOverridesProps = {
     NavBarHeaderL?: PrimitiveOverrideProps<FlexProps>;
@@ -24,9 +23,6 @@ export declare type NavBarHeaderLOverridesProps = {
     Button?: PrimitiveOverrideProps<ButtonProps>;
 } & EscapeHatchProps;
 export declare type NavBarHeaderLProps = React.PropsWithChildren<Partial<FlexProps> & {
-    onExitClick?: (event: SyntheticEvent) => void;
-    btnClassName?: String;
-} & {
     overrides?: NavBarHeaderLOverridesProps | undefined | null;
 }>;
 export default function NavBarHeaderL(props: NavBarHeaderLProps): React.ReactElement;

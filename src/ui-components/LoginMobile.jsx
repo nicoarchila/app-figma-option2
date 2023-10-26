@@ -9,14 +9,7 @@ import * as React from "react";
 import { getOverrideProps } from "@aws-amplify/ui-react/internal";
 import { Button, Flex, PasswordField, TextField } from "@aws-amplify/ui-react";
 export default function LoginMobile(props) {
-  const {
-    onchangeUser,
-    onChangePassword,
-    validSession,
-    className,
-    overrides,
-    ...rest
-  } = props;
+  const { overrides, ...rest } = props;
   return (
     <Flex
       gap="24px"
@@ -56,7 +49,6 @@ export default function LoginMobile(props) {
           isDisabled={false}
           labelHidden={false}
           variation="default"
-          onChange={onchangeUser}
           {...getOverrideProps(overrides, "TextField")}
         ></TextField>
         <PasswordField
@@ -71,7 +63,6 @@ export default function LoginMobile(props) {
           labelHidden={false}
           variation="default"
           hideShowPassword={false}
-          onChange={onChangePassword}
           {...getOverrideProps(overrides, "PasswordField")}
         ></PasswordField>
       </Flex>
@@ -85,7 +76,6 @@ export default function LoginMobile(props) {
         isDisabled={false}
         variation="primary"
         children="Iniciar sesión"
-        onClick={validSession}
         {...getOverrideProps(overrides, "Button")}
       ></Button>
     </Flex>

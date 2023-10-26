@@ -9,8 +9,7 @@ import * as React from "react";
 import { getOverrideProps } from "@aws-amplify/ui-react/internal";
 import { Button, Flex, PasswordField, TextField } from "@aws-amplify/ui-react";
 export default function Login(props) {
-  const { onchangeUser, onChangePassword, validSession, overrides, ...rest } =
-    props;
+  const { overrides, ...rest } = props;
   return (
     <Flex
       gap="24px"
@@ -50,7 +49,6 @@ export default function Login(props) {
           isDisabled={false}
           labelHidden={false}
           variation="default"
-          onChange={onchangeUser}
           {...getOverrideProps(overrides, "TextField")}
         ></TextField>
         <PasswordField
@@ -65,7 +63,6 @@ export default function Login(props) {
           labelHidden={false}
           variation="default"
           hideShowPassword={false}
-          onChange={onChangePassword}
           {...getOverrideProps(overrides, "PasswordField")}
         ></PasswordField>
       </Flex>
@@ -79,7 +76,6 @@ export default function Login(props) {
         isDisabled={false}
         variation="primary"
         children="Iniciar Sesión"
-        onClick={validSession}
         {...getOverrideProps(overrides, "Button")}
       ></Button>
     </Flex>

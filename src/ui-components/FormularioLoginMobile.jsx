@@ -9,7 +9,7 @@ import * as React from "react";
 import { getOverrideProps } from "@aws-amplify/ui-react/internal";
 import { Text, View } from "@aws-amplify/ui-react";
 export default function FormularioLoginMobile(props) {
-  const { login, overrides, ...rest } = props;
+  const { overrides, ...rest } = props;
   return (
     <View
       width="390px"
@@ -128,9 +128,22 @@ export default function FormularioLoginMobile(props) {
           top="0px"
           left="0px"
           padding="0px 0px 0px 0px"
-          children={login}
           {...getOverrideProps(overrides, "Frame 438")}
-        ></View>
+        >
+          <View
+            width="385px"
+            height="547px"
+            display="block"
+            gap="unset"
+            alignItems="unset"
+            justifyContent="unset"
+            position="absolute"
+            top="0px"
+            left="0px"
+            padding="0px 0px 0px 0px"
+            {...getOverrideProps(overrides, "Rectangle 2")}
+          ></View>
+        </View>
       </View>
       <Text
         fontFamily="Inter"

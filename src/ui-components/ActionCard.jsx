@@ -14,19 +14,7 @@ import {
 import { Button, Divider, Flex, Text } from "@aws-amplify/ui-react";
 import MyIcon from "./MyIcon";
 export default function ActionCard(props) {
-  const {
-    tittle = "Cuenta",
-    productName = "Cuenta de Ahorros",
-    numberProduct = "$10.000.000",
-    CurrentActual = "$1.000.000",
-    btnClassName,
-    actionDetails,
-    islot,
-    dateLimit = "15/08/2023",
-    actionTranfer,
-    overrides: overridesProp,
-    ...rest
-  } = props;
+  const { overrides: overridesProp, ...rest } = props;
   const variants = [
     {
       overrides: {
@@ -162,7 +150,7 @@ export default function ActionCard(props) {
               left="calc(50% - 140.5px - -14.5px)"
               padding="0px 0px 0px 0px"
               whiteSpace="pre-wrap"
-              children={tittle}
+              children="Cuentas"
               {...getOverrideProps(overrides, "Cuentas")}
             ></Text>
             <MyIcon
@@ -233,7 +221,7 @@ export default function ActionCard(props) {
                 position="relative"
                 padding="0px 0px 0px 0px"
                 whiteSpace="pre-wrap"
-                children={productName}
+                children="Cuenta de ahorro"
                 {...getOverrideProps(overrides, "Cuenta de ahorro")}
               ></Text>
               <Flex
@@ -291,7 +279,7 @@ export default function ActionCard(props) {
                   left="178px"
                   padding="0px 0px 0px 0px"
                   whiteSpace="pre-wrap"
-                  children={numberProduct}
+                  children="*******6194"
                   {...getOverrideProps(overrides, "*******6194")}
                 ></Text>
               </Flex>
@@ -349,7 +337,7 @@ export default function ActionCard(props) {
                   left="178px"
                   padding="0px 0px 0px 0px"
                   whiteSpace="pre-wrap"
-                  children={CurrentActual}
+                  children="$785.902,00"
                   {...getOverrideProps(overrides, "$785.902,00")}
                 ></Text>
               </Flex>
@@ -408,7 +396,7 @@ export default function ActionCard(props) {
                   left="164px"
                   padding="0px 0px 0px 0px"
                   whiteSpace="pre-wrap"
-                  children={dateLimit}
+                  children="04/06/2023"
                   {...getOverrideProps(overrides, "04/06/2023")}
                 ></Text>
               </Flex>
@@ -437,9 +425,7 @@ export default function ActionCard(props) {
             size="default"
             isDisabled={false}
             variation="primary"
-            className={btnClassName}
             children="Ver detalle"
-            onClick={actionDetails}
             {...getOverrideProps(overrides, "Button38733125")}
           ></Button>
           <Button
@@ -452,9 +438,7 @@ export default function ActionCard(props) {
             size="default"
             isDisabled={false}
             variation="primary"
-            hidden={islot}
             children="Transferir"
-            onClick={actionTranfer}
             {...getOverrideProps(overrides, "Button29766759")}
           ></Button>
         </Flex>

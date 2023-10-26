@@ -10,7 +10,7 @@ import { getOverrideProps } from "@aws-amplify/ui-react/internal";
 import Logo from "./Logo";
 import { Flex, View } from "@aws-amplify/ui-react";
 export default function NavBarHeaderMobile(props) {
-  const { menuBtn, overrides, ...rest } = props;
+  const { overrides, ...rest } = props;
   return (
     <Flex
       gap="10px"
@@ -63,7 +63,6 @@ export default function NavBarHeaderMobile(props) {
           position="relative"
           padding="0px 0px 0px 0px"
           backgroundColor="rgba(237,29,35,1)"
-          children={menuBtn}
           {...getOverrideProps(overrides, "rectangulo")}
         ></View>
       </Flex>

@@ -9,7 +9,7 @@ import * as React from "react";
 import { getOverrideProps } from "@aws-amplify/ui-react/internal";
 import { Flex, Text } from "@aws-amplify/ui-react";
 export default function DataRow(props) {
-  const { date = "27/06/2023", overrides, ...rest } = props;
+  const { overrides, ...rest } = props;
   return (
     <Flex
       gap="32px"
@@ -41,7 +41,7 @@ export default function DataRow(props) {
         position="relative"
         padding="0px 0px 0px 0px"
         whiteSpace="pre-wrap"
-        children={date}
+        children="01/06/2023"
         {...getOverrideProps(overrides, "label")}
       ></Text>
       <Text

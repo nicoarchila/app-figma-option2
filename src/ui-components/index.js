@@ -11,7 +11,6 @@ export { default as CommentCard } from "./CommentCard";
 export { default as DataList } from "./DataList";
 export { default as DataRow } from "./DataRow";
 export { default as EditProfile } from "./EditProfile";
-export { default as Favicon } from "./Favicon";
 export { default as Features2x2 } from "./Features2x2";
 export { default as Filters } from "./Filters";
 export { default as FormularioConfiguracion } from "./FormularioConfiguracion";

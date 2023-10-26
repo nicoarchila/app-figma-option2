@@ -19,8 +19,6 @@ export declare type FormularioLoginMobileOverridesProps = {
     "Registrarte aqu\u00ED"?: PrimitiveOverrideProps<TextProps>;
 } & EscapeHatchProps;
 export declare type FormularioLoginMobileProps = React.PropsWithChildren<Partial<ViewProps> & {
-    login?: React.ReactNode;
-} & {
     overrides?: FormularioLoginMobileOverridesProps | undefined | null;
 }>;
 export default function FormularioLoginMobile(props: FormularioLoginMobileProps): React.ReactElement;

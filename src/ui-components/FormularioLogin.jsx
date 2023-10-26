@@ -9,7 +9,7 @@ import * as React from "react";
 import { getOverrideProps } from "@aws-amplify/ui-react/internal";
 import { Text, View } from "@aws-amplify/ui-react";
 export default function FormularioLogin(props) {
-  const { login, overrides, ...rest } = props;
+  const { overrides, ...rest } = props;
   return (
     <View
       width="500px"
@@ -128,7 +128,6 @@ export default function FormularioLogin(props) {
           top="0px"
           left="0px"
           padding="0px 0px 0px 0px"
-          children={login}
           {...getOverrideProps(overrides, "Rectangle 2")}
         ></View>
       </View>

@@ -10,7 +10,7 @@ import { getOverrideProps } from "@aws-amplify/ui-react/internal";
 import Logo from "./Logo";
 import { Button, Flex, Text } from "@aws-amplify/ui-react";
 export default function NavBarHeaderNL(props) {
-  const { btnClassName, overrides, ...rest } = props;
+  const { overrides, ...rest } = props;
   return (
     <Flex
       gap="40px"
@@ -193,7 +193,6 @@ export default function NavBarHeaderNL(props) {
           size="default"
           isDisabled={false}
           variation="default"
-          className={btnClassName}
           children="Inicia sesión"
           {...getOverrideProps(overrides, "Button38732840")}
         ></Button>

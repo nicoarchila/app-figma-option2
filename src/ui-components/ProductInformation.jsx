@@ -10,21 +10,7 @@ import { getOverrideProps } from "@aws-amplify/ui-react/internal";
 import { Button, Flex, Text } from "@aws-amplify/ui-react";
 import MyIcon from "./MyIcon";
 export default function ProductInformation(props) {
-  const {
-    ActionBack,
-    monthFee = "$ 120.000",
-    numberProduct = "1231214-12",
-    debtDate = "$1.000.000",
-    limitDate = " ",
-    lastDate = " ",
-    rate = "1.3%",
-    Action,
-    btnClassName = "btn-sec-cust",
-    ActionPay,
-    prodName = "Cr\u00E9dito Personal",
-    overrides,
-    ...rest
-  } = props;
+  const { overrides, ...rest } = props;
   return (
     <Flex
       gap="32px"
@@ -48,7 +34,6 @@ export default function ProductInformation(props) {
         justifyContent="unset"
         shrink="0"
         position="relative"
-        onClick={ActionBack}
         {...getOverrideProps(overrides, "Group 194")}
       >
         <Text
@@ -72,7 +57,7 @@ export default function ProductInformation(props) {
           right="0%"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
-          children={prodName}
+          children="Crédito de libranza"
           {...getOverrideProps(overrides, "Cr\u00E9dito de libranza")}
         ></Text>
         <MyIcon
@@ -154,7 +139,7 @@ export default function ProductInformation(props) {
           right="0%"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
-          children={numberProduct}
+          children="*******6194"
           {...getOverrideProps(overrides, "*******6194")}
         ></Text>
         <Text
@@ -204,7 +189,7 @@ export default function ProductInformation(props) {
           right="0%"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
-          children={monthFee}
+          children="$785.902,00"
           {...getOverrideProps(overrides, "$785.902,00")}
         ></Text>
         <Text
@@ -254,7 +239,7 @@ export default function ProductInformation(props) {
           right="0%"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
-          children={debtDate}
+          children="$18.785.902,00"
           {...getOverrideProps(overrides, "$18.785.902,00")}
         ></Text>
         <Text
@@ -304,7 +289,7 @@ export default function ProductInformation(props) {
           right="0%"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
-          children={limitDate}
+          children="04/06/2023"
           {...getOverrideProps(overrides, "04/06/2023")}
         ></Text>
         <Text
@@ -354,7 +339,7 @@ export default function ProductInformation(props) {
           right="0%"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
-          children={lastDate}
+          children="04/05/2023"
           {...getOverrideProps(overrides, "04/05/2023")}
         ></Text>
         <Text
@@ -404,7 +389,7 @@ export default function ProductInformation(props) {
           right="0%"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
-          children={rate}
+          children="2,3%"
           {...getOverrideProps(overrides, "2,3%")}
         ></Text>
       </Flex>
@@ -433,7 +418,6 @@ export default function ProductInformation(props) {
           isDisabled={false}
           variation="primary"
           children="Pagar"
-          onClick={ActionPay}
           {...getOverrideProps(overrides, "Button40583099")}
         ></Button>
         <Button
@@ -448,9 +432,7 @@ export default function ProductInformation(props) {
           size="default"
           isDisabled={false}
           variation="primary"
-          className={btnClassName}
           children="Extractos y certificados"
-          onClick={Action}
           {...getOverrideProps(overrides, "Button40583100")}
         ></Button>
       </Flex>
