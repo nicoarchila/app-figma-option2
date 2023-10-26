@@ -1,0 +1,52 @@
+{
+    "products": {
+        "accounts_products": [
+            {
+                "amount": {
+                    "currency": "COP",
+                    "amount": "500000",
+                    "decimals": "0"
+                },
+                "account_type": "AFC",
+                "account_id": "11065548521",
+                "core_id": "AFC",
+                "status_code": "Ina",
+                "bank_id": "014",
+                "account_subtype": "228",
+                "effective_date": "2023-06-27T00:00:00",
+                "account_detail": "0"
+            },
+            {
+                "amount": {
+                    "currency": "",
+                    "amount": "12000000",
+                    "decimals": "0"
+                },
+                "account_type": "AHO",
+                "account_id": "31065216194",
+                "core_id": "PHO",
+                "status_code": "",
+                "bank_id": "014",
+                "account_subtype": "218",
+                "effective_date": "2023-06-27T10:07:03",
+                "account_detail": "0"
+            },
+            {
+                "amount": {
+                    "currency": "",
+                    "amount": "50000000",
+                    "decimals": "0"
+                },
+                "account_type": "LBR",
+                "account_id": "12065212514",
+                "core_id": "PHO",
+                "status_code": "",
+                "bank_id": "014",
+                "account_subtype": "310",
+                "effective_date": "2023-06-27T10:07:03",
+                "account_detail": "0"
+            }
+        ],
+        "credit_card_products": null
+    }
+}

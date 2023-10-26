@@ -1,0 +1,94 @@
+{
+    "loan": {
+        "loan_id": "12065212514",
+        "loan_type": "LBR",
+        "loan_subtype": "310",
+        "loan_description": "loan_description",
+        "status": "status",
+        "administrative_status": "administrative_status"
+    },
+    "instalments": {
+        "number": 2,
+        "days": 3,
+        "pending_number": 1,
+        "paid_number": 2
+    },
+    "term": {
+        "frecuency": 1,
+        "period": "period"
+    },
+    "rate": {
+        "value": "2.3",
+        "decimals": "decimals",
+        "description": "description",
+        "period": "period",
+        "margin": 1,
+        "frecuency": "frecuency",
+        "modality": "modality"
+    },
+    "credit_amount": {
+        "currency": "currency",
+        "amount": "50000000",
+        "decimals": "2"
+    },
+    "disbursed_amount": {
+        "currency": "currency",
+        "amount": "70000000",
+        "decimals": "2"
+    },
+    "start_date": "01/01/2015 05:25:15",
+    "end_date": "31/01/2015 05:25:15",
+    "amount_payment": null,
+    "last_payment": {
+        "date": "15/05/2023 05:25:15",
+        "amount_payment": {
+            "currency": "currency",
+            "amount": "850000",
+            "decimals": "2"
+        }
+    },
+    "next_payment": {
+        "date": "15/06/2023 05:25:15",
+        "amount_payment": {
+            "currency": "currency",
+            "amount": "850000",
+            "decimals": "2"
+        }
+    },
+    "due_amount": {
+        "currency": "currency",
+        "amount": "50000000",
+        "decimals": "2"
+    },
+    "payoff_amount": {
+        "currency": "currency",
+        "amount": "123",
+        "decimals": "2"
+    },
+    "swap_amount": {
+        "currency": "currency",
+        "amount": "123",
+        "decimals": "2"
+    },
+    "capital_amount": {
+        "currency": "currency",
+        "amount": "123",
+        "decimals": "2"
+    },
+    "interest_amount": {
+        "currency": "currency",
+        "amount": "123",
+        "decimals": "2"
+    },
+    "due_interest_amount": {
+        "currency": "currency",
+        "amount": "123",
+        "decimals": "2"
+    },
+    "due_days": 1,
+    "due_causation_arrears": "due_causation_arrears",
+    "interest_term": {
+        "frecuency": 1,
+        "period": "period"
+    }
+}

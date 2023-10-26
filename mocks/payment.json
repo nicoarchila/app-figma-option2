@@ -1,0 +1,9 @@
+{
+    "payment": [
+        {
+            "operation_target": "0020_TrnCode",
+            "transfer_id": "570989935.0000000000000000000",
+            "transfer_date": "2023-07-07T17:04:01.119-05:00"
+        }
+    ]
+}

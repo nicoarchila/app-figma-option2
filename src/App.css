@@ -1,0 +1,124 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.card {
+  margin-top: 40px;
+  margin-right: 40px;
+}
+
+.menu {
+  float: right;
+  width: 30%;
+}
+
+.container {
+  padding-left: 5vw;
+}
+
+.app-containerCard {
+  width: 70%;
+  float: left;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.app-containerMenu {
+  width: 30%;
+  height: 100vh;
+  float: right;
+  
+}
+
+.app-containerMenu > .navBar {
+  float: right !important;
+  height: 100vh !important;
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.headColor {
+  background: red !important;
+}
+
+.contanierColor {
+  background: blue !important;
+}
+
+.navBarColor {
+  background: green !important;
+}
+
+.btn-pri-cust {
+  background-color: var(--amplify-colors-brand-primary-80) !important;
+  color: var(--amplify-components-button-primary-color) !important;
+}
+
+.btn-sec-cust {
+  background-color: var(--amplify-colors-brand-secondary-80) !important;
+  border-color: var(--amplify-colors-brand-secondary-80) !important;
+  color: var(--amplify-components-button-primary-color) !important;
+}
+
+.btn-sec-cust:hover {
+  border-color: var(--amplify-components-button-focus-border-color) !important;
+}
+
+.h-center {
+  margin: 0 auto !important;
+}
+
+.loader-dis {
+  display: none !important;
+}
+
+.loader-ena {
+  display: unset !important;
+}
+
+.mobile-btn-menu {
+  margin: auto 0 !important;
+  background-color: var(--amplify-colors-brand-primary-60) !important;
+  color: var(--amplify-components-button-primary-color) !important;
+}
+
+.alert-abs {
+  position: absolute !important;
+  top: 0 !important;
+  width: 100vh !important;
+}
