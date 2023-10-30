@@ -5,8 +5,17 @@
  **************************************************************************/
 
 import * as React from "react";
-import { EscapeHatchProps } from "@aws-amplify/ui-react/internal";
 import { FlexProps, TextProps } from "@aws-amplify/ui-react";
+export declare type EscapeHatchProps = {
+    [elementHierarchy: string]: Record<string, unknown>;
+} | null;
+export declare type VariantValues = {
+    [key: string]: string;
+};
+export declare type Variant = {
+    variantValues: VariantValues;
+    overrides: EscapeHatchProps;
+};
 export declare type PrimitiveOverrideProps<T> = Partial<T> & React.DOMAttributes<HTMLDivElement>;
 export declare type DataRowOverridesProps = {
     DataRow?: PrimitiveOverrideProps<FlexProps>;
@@ -15,6 +24,8 @@ export declare type DataRowOverridesProps = {
     value387012412?: PrimitiveOverrideProps<TextProps>;
 } & EscapeHatchProps;
 export declare type DataRowProps = React.PropsWithChildren<Partial<FlexProps> & {
+    date?: String;
+} & {
     overrides?: DataRowOverridesProps | undefined | null;
 }>;
 export default function DataRow(props: DataRowProps): React.ReactElement;

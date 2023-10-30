@@ -6,11 +6,11 @@
 
 /* eslint-disable */
 import * as React from "react";
-import { getOverrideProps } from "@aws-amplify/ui-react/internal";
+import { getOverrideProps } from "./utils";
 import Logo from "./Logo";
 import { Button, Flex, Text } from "@aws-amplify/ui-react";
 export default function NavBarHeaderL(props) {
-  const { overrides, ...rest } = props;
+  const { onExitClick, btnClassName, overrides, ...rest } = props;
   return (
     <Flex
       gap="10px"

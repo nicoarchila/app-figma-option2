@@ -5,9 +5,19 @@
  **************************************************************************/
 
 import * as React from "react";
-import { EscapeHatchProps } from "@aws-amplify/ui-react/internal";
 import { ButtonProps, FlexProps, LoaderProps, RadioProps, SelectFieldProps, TextFieldProps, TextProps } from "@aws-amplify/ui-react";
 import { MyIconProps } from "./MyIcon";
+import { SyntheticEvent } from "react";
+export declare type EscapeHatchProps = {
+    [elementHierarchy: string]: Record<string, unknown>;
+} | null;
+export declare type VariantValues = {
+    [key: string]: string;
+};
+export declare type Variant = {
+    variantValues: VariantValues;
+    overrides: EscapeHatchProps;
+};
 export declare type PrimitiveOverrideProps<T> = Partial<T> & React.DOMAttributes<HTMLDivElement>;
 export declare type FormularioConfiguracionOverridesProps = {
     FormularioConfiguracion?: PrimitiveOverrideProps<FlexProps>;
@@ -34,6 +44,23 @@ export declare type FormularioConfiguracionOverridesProps = {
     Button39692671?: PrimitiveOverrideProps<ButtonProps>;
 } & EscapeHatchProps;
 export declare type FormularioConfiguracionProps = React.PropsWithChildren<Partial<FlexProps> & {
+    loaderState?: String;
+    onTargetProdChange?: (event: SyntheticEvent) => void;
+    targetProduct?: String;
+    paymentDate?: String;
+    onDefaultAmountClick?: (event: SyntheticEvent) => void;
+    paymentValue?: String;
+    onOtherAmountChange?: (event: SyntheticEvent) => void;
+    onSourceProdChange?: (event: SyntheticEvent) => void;
+    sourceProdList?: React.ReactNode;
+    cancel?: (event: SyntheticEvent) => void;
+    onClickBtn?: (event: SyntheticEvent) => void;
+    onClickBack?: (event: SyntheticEvent) => void;
+    onOtherAmountClick?: (event: SyntheticEvent) => void;
+    amountState?: Boolean;
+    nextURI?: String;
+    prevURI?: String;
+} & {
     overrides?: FormularioConfiguracionOverridesProps | undefined | null;
 }>;
 export default function FormularioConfiguracion(props: FormularioConfiguracionProps): React.ReactElement;

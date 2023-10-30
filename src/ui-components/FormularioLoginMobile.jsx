@@ -6,10 +6,10 @@
 
 /* eslint-disable */
 import * as React from "react";
-import { getOverrideProps } from "@aws-amplify/ui-react/internal";
+import { getOverrideProps } from "./utils";
 import { Text, View } from "@aws-amplify/ui-react";
 export default function FormularioLoginMobile(props) {
-  const { overrides, ...rest } = props;
+  const { login, overrides, ...rest } = props;
   return (
     <View
       width="390px"

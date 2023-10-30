@@ -6,10 +6,10 @@
 
 /* eslint-disable */
 import * as React from "react";
-import { getOverrideProps } from "@aws-amplify/ui-react/internal";
+import { getOverrideProps } from "./utils";
 import { Flex, Text } from "@aws-amplify/ui-react";
 export default function DataRow(props) {
-  const { overrides, ...rest } = props;
+  const { date = "27/06/2023", overrides, ...rest } = props;
   return (
     <Flex
       gap="32px"

@@ -6,11 +6,25 @@
 
 /* eslint-disable */
 import * as React from "react";
-import { getOverrideProps } from "@aws-amplify/ui-react/internal";
+import { getOverrideProps } from "./utils";
 import { Button, Flex, Text } from "@aws-amplify/ui-react";
 import MyIcon from "./MyIcon";
 export default function ProductInformation(props) {
-  const { overrides, ...rest } = props;
+  const {
+    ActionBack,
+    monthFee = "$120.000",
+    numberProduct = "1231214-12",
+    debtDate = "$1.000.000",
+    limitDate,
+    lastDate,
+    rate = "1.3%",
+    Action,
+    btnClassName = "btn-sec-cust",
+    ActionPay,
+    prodName = "Cr\u00E9dito Personal",
+    overrides,
+    ...rest
+  } = props;
   return (
     <Flex
       gap="32px"

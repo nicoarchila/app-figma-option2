@@ -5,9 +5,18 @@
  **************************************************************************/
 
 import * as React from "react";
-import { EscapeHatchProps } from "@aws-amplify/ui-react/internal";
 import { LogoProps } from "./Logo";
 import { FlexProps, ViewProps } from "@aws-amplify/ui-react";
+export declare type EscapeHatchProps = {
+    [elementHierarchy: string]: Record<string, unknown>;
+} | null;
+export declare type VariantValues = {
+    [key: string]: string;
+};
+export declare type Variant = {
+    variantValues: VariantValues;
+    overrides: EscapeHatchProps;
+};
 export declare type PrimitiveOverrideProps<T> = Partial<T> & React.DOMAttributes<HTMLDivElement>;
 export declare type NavBarHeaderMobileOverridesProps = {
     NavBarHeaderMobile?: PrimitiveOverrideProps<FlexProps>;
@@ -16,6 +25,8 @@ export declare type NavBarHeaderMobileOverridesProps = {
     rectangulo?: PrimitiveOverrideProps<ViewProps>;
 } & EscapeHatchProps;
 export declare type NavBarHeaderMobileProps = React.PropsWithChildren<Partial<FlexProps> & {
+    menuBtn?: React.ReactNode;
+} & {
     overrides?: NavBarHeaderMobileOverridesProps | undefined | null;
 }>;
 export default function NavBarHeaderMobile(props: NavBarHeaderMobileProps): React.ReactElement;

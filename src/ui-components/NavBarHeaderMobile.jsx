@@ -6,11 +6,11 @@
 
 /* eslint-disable */
 import * as React from "react";
-import { getOverrideProps } from "@aws-amplify/ui-react/internal";
+import { getOverrideProps } from "./utils";
 import Logo from "./Logo";
 import { Flex, View } from "@aws-amplify/ui-react";
 export default function NavBarHeaderMobile(props) {
-  const { overrides, ...rest } = props;
+  const { menuBtn, overrides, ...rest } = props;
   return (
     <Flex
       gap="10px"

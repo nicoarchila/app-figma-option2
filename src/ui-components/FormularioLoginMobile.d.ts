@@ -5,8 +5,17 @@
  **************************************************************************/
 
 import * as React from "react";
-import { EscapeHatchProps } from "@aws-amplify/ui-react/internal";
 import { TextProps, ViewProps } from "@aws-amplify/ui-react";
+export declare type EscapeHatchProps = {
+    [elementHierarchy: string]: Record<string, unknown>;
+} | null;
+export declare type VariantValues = {
+    [key: string]: string;
+};
+export declare type Variant = {
+    variantValues: VariantValues;
+    overrides: EscapeHatchProps;
+};
 export declare type PrimitiveOverrideProps<T> = Partial<T> & React.DOMAttributes<HTMLDivElement>;
 export declare type FormularioLoginMobileOverridesProps = {
     FormularioLoginMobile?: PrimitiveOverrideProps<ViewProps>;
@@ -19,6 +28,8 @@ export declare type FormularioLoginMobileOverridesProps = {
     "Registrarte aqu\u00ED"?: PrimitiveOverrideProps<TextProps>;
 } & EscapeHatchProps;
 export declare type FormularioLoginMobileProps = React.PropsWithChildren<Partial<ViewProps> & {
+    login?: React.ReactNode;
+} & {
     overrides?: FormularioLoginMobileOverridesProps | undefined | null;
 }>;
 export default function FormularioLoginMobile(props: FormularioLoginMobileProps): React.ReactElement;

@@ -6,7 +6,7 @@
 
 /* eslint-disable */
 import * as React from "react";
-import { getOverrideProps } from "@aws-amplify/ui-react/internal";
+import { getOverrideProps } from "./utils";
 import MyIcon from "./MyIcon";
 import { Divider, Flex, Text } from "@aws-amplify/ui-react";
 export default function SideBarMobileLogin(props) {

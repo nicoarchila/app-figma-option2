@@ -5,9 +5,19 @@
  **************************************************************************/
 
 import * as React from "react";
-import { EscapeHatchProps } from "@aws-amplify/ui-react/internal";
 import { AlertProps, ButtonProps, FlexProps, TextFieldProps, TextProps } from "@aws-amplify/ui-react";
 import { MyIconProps } from "./MyIcon";
+import { SyntheticEvent } from "react";
+export declare type EscapeHatchProps = {
+    [elementHierarchy: string]: Record<string, unknown>;
+} | null;
+export declare type VariantValues = {
+    [key: string]: string;
+};
+export declare type Variant = {
+    variantValues: VariantValues;
+    overrides: EscapeHatchProps;
+};
 export declare type PrimitiveOverrideProps<T> = Partial<T> & React.DOMAttributes<HTMLDivElement>;
 export declare type FormularioConfirmacionOverridesProps = {
     FormularioConfirmacion?: PrimitiveOverrideProps<FlexProps>;
@@ -26,6 +36,17 @@ export declare type FormularioConfirmacionOverridesProps = {
     Alert?: PrimitiveOverrideProps<AlertProps>;
 } & EscapeHatchProps;
 export declare type FormularioConfirmacionProps = React.PropsWithChildren<Partial<FlexProps> & {
+    onClickBack?: (event: SyntheticEvent) => void;
+    loaderState?: String;
+    number?: String;
+    date?: String;
+    amount?: String;
+    Action?: (event: SyntheticEvent) => void;
+    ActionFin?: (event: SyntheticEvent) => void;
+    alertState?: Boolean;
+    nextURI?: String;
+    prevURI?: String;
+} & {
     overrides?: FormularioConfirmacionOverridesProps | undefined | null;
 }>;
 export default function FormularioConfirmacion(props: FormularioConfirmacionProps): React.ReactElement;

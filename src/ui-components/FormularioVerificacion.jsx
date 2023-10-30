@@ -6,11 +6,27 @@
 
 /* eslint-disable */
 import * as React from "react";
-import { getOverrideProps } from "@aws-amplify/ui-react/internal";
+import { getOverrideProps } from "./utils";
 import { Button, Flex, Loader, Text, TextField } from "@aws-amplify/ui-react";
 import MyIcon from "./MyIcon";
 export default function FormularioVerificacion(props) {
-  const { overrides, ...rest } = props;
+  const {
+    onClickBack,
+    loaderState = "loader-dis",
+    onChangePay,
+    tarjetProd,
+    onChangeDeb,
+    sourceProd,
+    onChangeInput,
+    payAmount,
+    trxCost = "$ -",
+    onClickCancel,
+    onClickNext,
+    nextURI,
+    prevURI,
+    overrides,
+    ...rest
+  } = props;
   return (
     <Flex
       gap="32px"

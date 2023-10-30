@@ -5,8 +5,18 @@
  **************************************************************************/
 
 import * as React from "react";
-import { EscapeHatchProps } from "@aws-amplify/ui-react/internal";
 import { ButtonProps, FlexProps, PasswordFieldProps, TextFieldProps } from "@aws-amplify/ui-react";
+import { SyntheticEvent } from "react";
+export declare type EscapeHatchProps = {
+    [elementHierarchy: string]: Record<string, unknown>;
+} | null;
+export declare type VariantValues = {
+    [key: string]: string;
+};
+export declare type Variant = {
+    variantValues: VariantValues;
+    overrides: EscapeHatchProps;
+};
 export declare type PrimitiveOverrideProps<T> = Partial<T> & React.DOMAttributes<HTMLDivElement>;
 export declare type LoginOverridesProps = {
     Login?: PrimitiveOverrideProps<FlexProps>;
@@ -16,6 +26,10 @@ export declare type LoginOverridesProps = {
     Button?: PrimitiveOverrideProps<ButtonProps>;
 } & EscapeHatchProps;
 export declare type LoginProps = React.PropsWithChildren<Partial<FlexProps> & {
+    onchangeUser?: (event: SyntheticEvent) => void;
+    onChangePassword?: (event: SyntheticEvent) => void;
+    validSession?: (event: SyntheticEvent) => void;
+} & {
     overrides?: LoginOverridesProps | undefined | null;
 }>;
 export default function Login(props: LoginProps): React.ReactElement;

@@ -6,10 +6,17 @@
 
 /* eslint-disable */
 import * as React from "react";
-import { getOverrideProps } from "@aws-amplify/ui-react/internal";
+import { getOverrideProps } from "./utils";
 import { Button, Flex, PasswordField, TextField } from "@aws-amplify/ui-react";
 export default function LoginMobile(props) {
-  const { overrides, ...rest } = props;
+  const {
+    onchangeUser,
+    onChangePassword,
+    validSession,
+    className,
+    overrides,
+    ...rest
+  } = props;
   return (
     <Flex
       gap="24px"

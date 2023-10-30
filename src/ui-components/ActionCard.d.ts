@@ -5,9 +5,19 @@
  **************************************************************************/
 
 import * as React from "react";
-import { EscapeHatchProps } from "@aws-amplify/ui-react/internal";
 import { ButtonProps, DividerProps, FlexProps, TextProps } from "@aws-amplify/ui-react";
 import { MyIconProps } from "./MyIcon";
+import { SyntheticEvent } from "react";
+export declare type EscapeHatchProps = {
+    [elementHierarchy: string]: Record<string, unknown>;
+} | null;
+export declare type VariantValues = {
+    [key: string]: string;
+};
+export declare type Variant = {
+    variantValues: VariantValues;
+    overrides: EscapeHatchProps;
+};
 export declare type PrimitiveOverrideProps<T> = Partial<T> & React.DOMAttributes<HTMLDivElement>;
 export declare type ActionCardOverridesProps = {
     ActionCard?: PrimitiveOverrideProps<FlexProps>;
@@ -34,6 +44,16 @@ export declare type ActionCardOverridesProps = {
     Button29766759?: PrimitiveOverrideProps<ButtonProps>;
 } & EscapeHatchProps;
 export declare type ActionCardProps = React.PropsWithChildren<Partial<FlexProps> & {
+    tittle?: String;
+    productName?: String;
+    numberProduct?: String;
+    CurrentActual?: String;
+    btnClassName?: String;
+    actionDetails?: (event: SyntheticEvent) => void;
+    islot?: Boolean;
+    dateLimit?: String;
+    actionTransfer?: (event: SyntheticEvent) => void;
+} & {
     prod_type?: "active" | "passive";
 } & {
     overrides?: ActionCardOverridesProps | undefined | null;

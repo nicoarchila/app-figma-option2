@@ -5,9 +5,19 @@
  **************************************************************************/
 
 import * as React from "react";
-import { EscapeHatchProps } from "@aws-amplify/ui-react/internal";
 import { ButtonProps, FlexProps, TextProps } from "@aws-amplify/ui-react";
 import { MyIconProps } from "./MyIcon";
+import { SyntheticEvent } from "react";
+export declare type EscapeHatchProps = {
+    [elementHierarchy: string]: Record<string, unknown>;
+} | null;
+export declare type VariantValues = {
+    [key: string]: string;
+};
+export declare type Variant = {
+    variantValues: VariantValues;
+    overrides: EscapeHatchProps;
+};
 export declare type PrimitiveOverrideProps<T> = Partial<T> & React.DOMAttributes<HTMLDivElement>;
 export declare type ProductInformationOverridesProps = {
     ProductInformation?: PrimitiveOverrideProps<FlexProps>;
@@ -32,6 +42,18 @@ export declare type ProductInformationOverridesProps = {
     Button40583100?: PrimitiveOverrideProps<ButtonProps>;
 } & EscapeHatchProps;
 export declare type ProductInformationProps = React.PropsWithChildren<Partial<FlexProps> & {
+    ActionBack?: (event: SyntheticEvent) => void;
+    monthFee?: String;
+    numberProduct?: String;
+    debtDate?: String;
+    limitDate?: String;
+    lastDate?: String;
+    rate?: String;
+    Action?: (event: SyntheticEvent) => void;
+    btnClassName?: String;
+    ActionPay?: (event: SyntheticEvent) => void;
+    prodName?: String;
+} & {
     overrides?: ProductInformationOverridesProps | undefined | null;
 }>;
 export default function ProductInformation(props: ProductInformationProps): React.ReactElement;

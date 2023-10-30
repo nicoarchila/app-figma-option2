@@ -10,11 +10,23 @@ import {
   getOverrideProps,
   getOverridesFromVariants,
   mergeVariantsAndOverrides,
-} from "@aws-amplify/ui-react/internal";
+} from "./utils";
 import { Button, Divider, Flex, Text } from "@aws-amplify/ui-react";
 import MyIcon from "./MyIcon";
 export default function ActionCard(props) {
-  const { overrides: overridesProp, ...rest } = props;
+  const {
+    tittle = "Cuenta",
+    productName = "Cuenta de Ahorros",
+    numberProduct = "$10.000.000",
+    CurrentActual = "$1.000.000",
+    btnClassName,
+    actionDetails,
+    islot,
+    dateLimit = "15/08/2023",
+    actionTransfer,
+    overrides: overridesProp,
+    ...rest
+  } = props;
   const variants = [
     {
       overrides: {

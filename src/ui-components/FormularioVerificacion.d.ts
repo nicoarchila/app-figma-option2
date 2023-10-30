@@ -5,9 +5,19 @@
  **************************************************************************/
 
 import * as React from "react";
-import { EscapeHatchProps } from "@aws-amplify/ui-react/internal";
 import { ButtonProps, FlexProps, LoaderProps, TextFieldProps, TextProps } from "@aws-amplify/ui-react";
 import { MyIconProps } from "./MyIcon";
+import { SyntheticEvent } from "react";
+export declare type EscapeHatchProps = {
+    [elementHierarchy: string]: Record<string, unknown>;
+} | null;
+export declare type VariantValues = {
+    [key: string]: string;
+};
+export declare type Variant = {
+    variantValues: VariantValues;
+    overrides: EscapeHatchProps;
+};
 export declare type PrimitiveOverrideProps<T> = Partial<T> & React.DOMAttributes<HTMLDivElement>;
 export declare type FormularioVerificacionOverridesProps = {
     FormularioVerificacion?: PrimitiveOverrideProps<FlexProps>;
@@ -27,6 +37,20 @@ export declare type FormularioVerificacionOverridesProps = {
     Button39693130?: PrimitiveOverrideProps<ButtonProps>;
 } & EscapeHatchProps;
 export declare type FormularioVerificacionProps = React.PropsWithChildren<Partial<FlexProps> & {
+    onClickBack?: (event: SyntheticEvent) => void;
+    loaderState?: String;
+    onChangePay?: (event: SyntheticEvent) => void;
+    tarjetProd?: String;
+    onChangeDeb?: (event: SyntheticEvent) => void;
+    sourceProd?: String;
+    onChangeInput?: (event: SyntheticEvent) => void;
+    payAmount?: String;
+    trxCost?: String;
+    onClickCancel?: (event: SyntheticEvent) => void;
+    onClickNext?: (event: SyntheticEvent) => void;
+    nextURI?: String;
+    prevURI?: String;
+} & {
     overrides?: FormularioVerificacionOverridesProps | undefined | null;
 }>;
 export default function FormularioVerificacion(props: FormularioVerificacionProps): React.ReactElement;
