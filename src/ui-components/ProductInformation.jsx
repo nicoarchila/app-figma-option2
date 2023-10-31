@@ -432,6 +432,7 @@ export default function ProductInformation(props) {
           isDisabled={false}
           variation="primary"
           children="Pagar"
+          onClick={ActionPay}
           {...getOverrideProps(overrides, "Button40583099")}
         ></Button>
         <Button
@@ -447,6 +448,7 @@ export default function ProductInformation(props) {
           isDisabled={false}
           variation="primary"
           children="Extractos y certificados"
+          onClick={Action}
           {...getOverrideProps(overrides, "Button40583100")}
         ></Button>
       </Flex>
