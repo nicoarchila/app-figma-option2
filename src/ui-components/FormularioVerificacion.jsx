@@ -218,6 +218,7 @@ export default function FormularioVerificacion(props) {
             isDisabled={false}
             variation="primary"
             children="Cancelar"
+            onClick={onClickCancel}
             {...getOverrideProps(overrides, "Button39693129")}
           ></Button>
           <Button
@@ -233,6 +234,7 @@ export default function FormularioVerificacion(props) {
             isDisabled={false}
             variation="primary"
             children="Continuar"
+            onClick={onClickNext}
             {...getOverrideProps(overrides, "Button39693130")}
           ></Button>
         </Flex>

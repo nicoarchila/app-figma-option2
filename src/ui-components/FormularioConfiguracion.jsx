@@ -332,6 +332,7 @@ export default function FormularioConfiguracion(props) {
             isDisabled={false}
             variation="primary"
             children="Cancelar"
+            onClick={cancel}
             {...getOverrideProps(overrides, "Button39692670")}
           ></Button>
           <Button
@@ -347,6 +348,7 @@ export default function FormularioConfiguracion(props) {
             isDisabled={false}
             variation="primary"
             children="Continuar"
+            onClick={onClickBtn}
             {...getOverrideProps(overrides, "Button39692671")}
           ></Button>
         </Flex>

@@ -194,6 +194,7 @@ export default function FormularioConfirmacion(props) {
             isDisabled={false}
             variation="primary"
             children="Comprobante"
+            onClick={Action}
             {...getOverrideProps(overrides, "Button39693460")}
           ></Button>
           <Button
@@ -209,6 +210,7 @@ export default function FormularioConfirmacion(props) {
             isDisabled={false}
             variation="primary"
             children="Finalizar"
+            onClick={ActionFin}
             {...getOverrideProps(overrides, "Button39693461")}
           ></Button>
         </Flex>
