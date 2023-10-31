@@ -438,7 +438,9 @@ export default function ActionCard(props) {
             size="default"
             isDisabled={false}
             variation="primary"
+            className={btnClassName}
             children="Ver detalle"
+            onClick={actionDetails}
             {...getOverrideProps(overrides, "Button38733125")}
           ></Button>
           <Button
@@ -452,6 +454,7 @@ export default function ActionCard(props) {
             isDisabled={false}
             variation="primary"
             children="Transferir"
+            onClick={actionTransfer}
             {...getOverrideProps(overrides, "Button29766759")}
           ></Button>
         </Flex>
