@@ -128,22 +128,9 @@ export default function FormularioLoginMobile(props) {
           top="0px"
           left="0px"
           padding="0px 0px 0px 0px"
+          children={login}
           {...getOverrideProps(overrides, "Frame 438")}
-        >
-          <View
-            width="385px"
-            height="547px"
-            display="block"
-            gap="unset"
-            alignItems="unset"
-            justifyContent="unset"
-            position="absolute"
-            top="0px"
-            left="0px"
-            padding="0px 0px 0px 0px"
-            {...getOverrideProps(overrides, "Rectangle 2")}
-          ></View>
-        </View>
+        ></View>
       </View>
       <Text
         fontFamily="Inter"

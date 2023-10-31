@@ -1250,7 +1250,7 @@ export default createTheme({
       },
       font: {
         primary: { value: "hsl(0, 0%, 0%)" },
-        secondary: { value: "hsl(226, 79%, 34%)" },
+        secondary: { value: "hsl(226, 85%, 4%)" },
         tertiary: { value: "hsl(60, 2%, 9%)" },
         disabled: { value: "hsl(240, 2%, 62%)" },
         inverse: { value: "hsl(0, 0%, 100%)" },

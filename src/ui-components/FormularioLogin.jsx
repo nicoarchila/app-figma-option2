@@ -128,6 +128,7 @@ export default function FormularioLogin(props) {
           top="0px"
           left="0px"
           padding="0px 0px 0px 0px"
+          children={login}
           {...getOverrideProps(overrides, "Rectangle 2")}
         ></View>
       </View>

@@ -63,6 +63,7 @@ export default function NavBarHeaderMobile(props) {
           position="relative"
           padding="0px 0px 0px 0px"
           backgroundColor="rgba(227,232,84,1)"
+          children={menuBtn}
           {...getOverrideProps(overrides, "rectangulo")}
         ></View>
       </Flex>

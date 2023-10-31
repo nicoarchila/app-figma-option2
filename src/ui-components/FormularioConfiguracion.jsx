@@ -224,7 +224,7 @@ export default function FormularioConfiguracion(props) {
             fontFamily="Inter"
             fontSize="16px"
             fontWeight="400"
-            color="rgba(18,50,155,1)"
+            color="rgba(2,6,19,1)"
             lineHeight="24px"
             textAlign="left"
             display="block"
