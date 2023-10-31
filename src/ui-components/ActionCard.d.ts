@@ -53,6 +53,7 @@ export declare type ActionCardProps = React.PropsWithChildren<Partial<FlexProps>
     islot?: Boolean;
     dateLimit?: String;
     actionTransfer?: (event: SyntheticEvent) => void;
+    actionTranfer?: (event: SyntheticEvent) => void;
 } & {
     prod_type?: "active" | "passive";
 } & {

@@ -24,6 +24,7 @@ export default function ActionCard(props) {
     islot,
     dateLimit = "15/08/2023",
     actionTransfer,
+    actionTranfer,
     overrides: overridesProp,
     ...rest
   } = props;
