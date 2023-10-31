@@ -35,6 +35,7 @@ export default function FormularioConfiguracion(props) {
     amountState,
     nextURI,
     prevURI,
+    paymentAmount,
     overrides,
     ...rest
   } = props;

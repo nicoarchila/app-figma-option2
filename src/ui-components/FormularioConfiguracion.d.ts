@@ -60,6 +60,7 @@ export declare type FormularioConfiguracionProps = React.PropsWithChildren<Parti
     amountState?: Boolean;
     nextURI?: String;
     prevURI?: String;
+    paymentAmount?: String;
 } & {
     overrides?: FormularioConfiguracionOverridesProps | undefined | null;
 }>;
