@@ -193,6 +193,7 @@ export default function NavBarHeaderNL(props) {
           size="default"
           isDisabled={false}
           variation="default"
+          className={btnClassName}
           children="Inicia sesión"
           {...getOverrideProps(overrides, "Button38732840")}
         ></Button>

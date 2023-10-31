@@ -77,6 +77,7 @@ export default function Login(props) {
         isDisabled={false}
         variation="primary"
         children="Iniciar Sesión"
+        onClick={validSession}
         {...getOverrideProps(overrides, "Button")}
       ></Button>
     </Flex>

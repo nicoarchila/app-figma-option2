@@ -6,11 +6,12 @@
 
 /* eslint-disable */
 import * as React from "react";
-import { getOverrideProps } from "./utils";
+import { getOverrideProps, useNavigateAction } from "./utils";
 import Logo from "./Logo";
 import { Button, Flex, Text } from "@aws-amplify/ui-react";
 export default function NavBarHeaderL(props) {
   const { onExitClick, btnClassName, overrides, ...rest } = props;
+  const buttonOnClick = useNavigateAction({ type: "url", url: "/" });
   return (
     <Flex
       gap="10px"
@@ -200,7 +201,11 @@ export default function NavBarHeaderL(props) {
           size="default"
           isDisabled={false}
           variation="default"
+          className={btnClassName}
           children="Salir"
+          onClick={() => {
+            buttonOnClick();
+          }}
           {...getOverrideProps(overrides, "Button")}
         ></Button>
       </Flex>
