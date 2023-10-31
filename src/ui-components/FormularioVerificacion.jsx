@@ -127,6 +127,7 @@ export default function FormularioVerificacion(props) {
           alignSelf="stretch"
           size="large"
           variation="linear"
+          className={loaderState}
           {...getOverrideProps(overrides, "Loader")}
         ></Loader>
         <TextField
