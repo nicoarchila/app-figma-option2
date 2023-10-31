@@ -22,7 +22,7 @@ export default function Login(props) {
       position="relative"
       borderRadius="8px"
       padding="32px 32px 32px 32px"
-      backgroundColor="rgba(239,240,240,1)"
+      backgroundColor="rgba(255,255,255,1)"
       {...getOverrideProps(overrides, "Login")}
       {...rest}
     >
@@ -72,7 +72,7 @@ export default function Login(props) {
         height="unset"
         shrink="0"
         alignSelf="stretch"
-        backgroundColor="rgba(237,29,35,1)"
+        backgroundColor="rgba(227,232,84,1)"
         size="default"
         isDisabled={false}
         variation="primary"

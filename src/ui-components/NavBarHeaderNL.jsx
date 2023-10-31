@@ -177,7 +177,7 @@ export default function NavBarHeaderNL(props) {
           width="unset"
           height="unset"
           shrink="0"
-          backgroundColor="rgba(237,29,35,1)"
+          backgroundColor="rgba(227,232,84,1)"
           size="default"
           isDisabled={false}
           variation="primary"
@@ -189,7 +189,7 @@ export default function NavBarHeaderNL(props) {
           height="unset"
           borderRadius="4px"
           shrink="0"
-          backgroundColor="rgba(163,163,163,1)"
+          backgroundColor="rgba(14,39,124,1)"
           size="default"
           isDisabled={false}
           variation="default"

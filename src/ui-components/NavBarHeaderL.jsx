@@ -196,7 +196,7 @@ export default function NavBarHeaderL(props) {
           height="unset"
           border="1px SOLID rgba(0,0,0,0)"
           shrink="0"
-          backgroundColor="rgba(163,163,163,1)"
+          backgroundColor="rgba(14,39,124,1)"
           size="default"
           isDisabled={false}
           variation="default"

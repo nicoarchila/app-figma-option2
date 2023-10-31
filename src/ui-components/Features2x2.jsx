@@ -21,7 +21,7 @@ export default function Features2x2(props) {
       alignItems="center"
       position="relative"
       padding="40px 160px 40px 160px"
-      backgroundColor="rgba(239,240,240,1)"
+      backgroundColor="rgba(255,255,255,1)"
       {...getOverrideProps(overrides, "Features2x2")}
       {...rest}
     >
@@ -79,7 +79,7 @@ export default function Features2x2(props) {
               position="relative"
               borderRadius="8px"
               padding="8px 8px 8px 8px"
-              backgroundColor="rgba(246,142,145,1)"
+              backgroundColor="rgba(241,244,169,1)"
               {...getOverrideProps(overrides, "Frame 43039424113")}
             >
               <MyIcon
@@ -174,7 +174,7 @@ export default function Features2x2(props) {
               position="relative"
               borderRadius="8px"
               padding="8px 8px 8px 8px"
-              backgroundColor="rgba(246,142,145,1)"
+              backgroundColor="rgba(241,244,169,1)"
               {...getOverrideProps(overrides, "Frame 43039424116")}
             >
               <MyIcon
@@ -284,7 +284,7 @@ export default function Features2x2(props) {
               position="relative"
               borderRadius="8px"
               padding="8px 8px 8px 8px"
-              backgroundColor="rgba(246,142,145,1)"
+              backgroundColor="rgba(241,244,169,1)"
               {...getOverrideProps(overrides, "Frame 43039403233")}
             >
               <MyIcon
@@ -328,7 +328,7 @@ export default function Features2x2(props) {
               fontFamily="Inter"
               fontSize="16px"
               fontWeight="400"
-              color="rgba(23,23,22,1)"
+              color="rgba(18,50,155,1)"
               lineHeight="24px"
               textAlign="left"
               display="block"
@@ -379,7 +379,7 @@ export default function Features2x2(props) {
               position="relative"
               borderRadius="8px"
               padding="8px 8px 8px 8px"
-              backgroundColor="rgba(246,142,145,1)"
+              backgroundColor="rgba(241,244,169,1)"
               {...getOverrideProps(overrides, "Frame 43039424110")}
             >
               <MyIcon

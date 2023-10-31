@@ -22,7 +22,7 @@ export default function MarketingPricing(props) {
       overflow="hidden"
       position="relative"
       padding="48px 48px 48px 48px"
-      backgroundColor="rgba(239,240,240,1)"
+      backgroundColor="rgba(255,255,255,1)"
       {...getOverrideProps(overrides, "MarketingPricing")}
       {...rest}
     >
@@ -42,7 +42,7 @@ export default function MarketingPricing(props) {
           fontFamily="Inter"
           fontSize="16px"
           fontWeight="600"
-          color="rgba(191,24,29,1)"
+          color="rgba(183,187,68,1)"
           lineHeight="24px"
           textAlign="left"
           display="block"
@@ -235,7 +235,7 @@ export default function MarketingPricing(props) {
               position="relative"
               borderRadius="8px"
               padding="8px 8px 8px 8px"
-              backgroundColor="rgba(246,142,145,1)"
+              backgroundColor="rgba(241,244,169,1)"
               {...getOverrideProps(overrides, "Frame 43039393324")}
             >
               <MyIcon
@@ -305,7 +305,7 @@ export default function MarketingPricing(props) {
               position="relative"
               borderRadius="8px"
               padding="8px 8px 8px 8px"
-              backgroundColor="rgba(246,142,145,1)"
+              backgroundColor="rgba(241,244,169,1)"
               {...getOverrideProps(overrides, "Frame 43139393330")}
             >
               <MyIcon
@@ -375,7 +375,7 @@ export default function MarketingPricing(props) {
               position="relative"
               borderRadius="8px"
               padding="8px 8px 8px 8px"
-              backgroundColor="rgba(246,142,145,1)"
+              backgroundColor="rgba(241,244,169,1)"
               {...getOverrideProps(overrides, "Frame 43039393348")}
             >
               <MyIcon
@@ -550,7 +550,7 @@ export default function MarketingPricing(props) {
               position="relative"
               borderRadius="8px"
               padding="8px 8px 8px 8px"
-              backgroundColor="rgba(246,142,145,1)"
+              backgroundColor="rgba(241,244,169,1)"
               {...getOverrideProps(overrides, "Frame 43039393397")}
             >
               <MyIcon
@@ -620,7 +620,7 @@ export default function MarketingPricing(props) {
               position="relative"
               borderRadius="8px"
               padding="8px 8px 8px 8px"
-              backgroundColor="rgba(246,142,145,1)"
+              backgroundColor="rgba(241,244,169,1)"
               {...getOverrideProps(overrides, "Frame 43139393401")}
             >
               <MyIcon
@@ -690,7 +690,7 @@ export default function MarketingPricing(props) {
               position="relative"
               borderRadius="8px"
               padding="8px 8px 8px 8px"
-              backgroundColor="rgba(246,142,145,1)"
+              backgroundColor="rgba(241,244,169,1)"
               {...getOverrideProps(overrides, "Frame 43039393405")}
             >
               <MyIcon
@@ -865,7 +865,7 @@ export default function MarketingPricing(props) {
               position="relative"
               borderRadius="8px"
               padding="8px 8px 8px 8px"
-              backgroundColor="rgba(246,142,145,1)"
+              backgroundColor="rgba(241,244,169,1)"
               {...getOverrideProps(overrides, "Frame 43039393613")}
             >
               <MyIcon
@@ -935,7 +935,7 @@ export default function MarketingPricing(props) {
               position="relative"
               borderRadius="8px"
               padding="8px 8px 8px 8px"
-              backgroundColor="rgba(246,142,145,1)"
+              backgroundColor="rgba(241,244,169,1)"
               {...getOverrideProps(overrides, "Frame 43139393617")}
             >
               <MyIcon
@@ -1005,7 +1005,7 @@ export default function MarketingPricing(props) {
               position="relative"
               borderRadius="8px"
               padding="8px 8px 8px 8px"
-              backgroundColor="rgba(246,142,145,1)"
+              backgroundColor="rgba(241,244,169,1)"
               {...getOverrideProps(overrides, "Frame 43039393621")}
             >
               <MyIcon

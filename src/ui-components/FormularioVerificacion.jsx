@@ -213,7 +213,7 @@ export default function FormularioVerificacion(props) {
             position="absolute"
             top="0px"
             left="0px"
-            backgroundColor="rgba(163,163,163,1)"
+            backgroundColor="rgba(14,39,124,1)"
             size="large"
             isDisabled={false}
             variation="primary"
@@ -228,7 +228,7 @@ export default function FormularioVerificacion(props) {
             bottom="0%"
             left="54.83%"
             right="0%"
-            backgroundColor="rgba(237,29,35,1)"
+            backgroundColor="rgba(227,232,84,1)"
             size="large"
             isDisabled={false}
             variation="primary"
