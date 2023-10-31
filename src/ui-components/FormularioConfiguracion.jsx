@@ -302,6 +302,8 @@ export default function FormularioConfiguracion(props) {
             isDisabled={false}
             labelHidden={false}
             variation="default"
+            options={sourceProdList}
+            onChange={onSourceProdChange}
             {...getOverrideProps(overrides, "SelectField39692667")}
           ></SelectField>
         </Flex>
