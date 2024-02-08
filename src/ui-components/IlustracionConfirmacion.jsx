@@ -101,8 +101,8 @@ export default function IlustracionConfirmacion(props) {
             viewBox={{
               minX: 0,
               minY: 0,
-              width: 120.837158203125,
-              height: 241.72705078125,
+              width: 120.83724212646484,
+              height: 241.72726440429688,
             }}
             paths={[
               {
@@ -129,7 +129,7 @@ export default function IlustracionConfirmacion(props) {
               minX: 0,
               minY: 0,
               width: 109.186279296875,
-              height: 230.77001953125,
+              height: 230.7698516845703,
             }}
             paths={[
               {
@@ -155,8 +155,8 @@ export default function IlustracionConfirmacion(props) {
             viewBox={{
               minX: 0,
               minY: 0,
-              width: 171.272216796875,
-              height: 0.89208984375,
+              width: 171.27220153808594,
+              height: 0.8921095132827759,
             }}
             paths={[
               {
@@ -182,8 +182,8 @@ export default function IlustracionConfirmacion(props) {
             viewBox={{
               minX: 0,
               minY: 0,
-              width: 75.5263671875,
-              height: 75.33544921875,
+              width: 75.52630615234375,
+              height: 75.33525848388672,
             }}
             paths={[
               {
@@ -209,8 +209,8 @@ export default function IlustracionConfirmacion(props) {
             viewBox={{
               minX: 0,
               minY: 0,
-              width: 32.748046875,
-              height: 28.64794921875,
+              width: 32.74816131591797,
+              height: 28.648042678833008,
             }}
             paths={[
               {
@@ -236,8 +236,8 @@ export default function IlustracionConfirmacion(props) {
             viewBox={{
               minX: 0,
               minY: 0,
-              width: 55.087890625,
-              height: 77.80908203125,
+              width: 55.08778762817383,
+              height: 77.80917358398438,
             }}
             paths={[
               {
@@ -263,8 +263,8 @@ export default function IlustracionConfirmacion(props) {
             viewBox={{
               minX: 0,
               minY: 0,
-              width: 37.755859375,
-              height: 73.4111328125,
+              width: 37.755924224853516,
+              height: 73.4112777709961,
             }}
             paths={[
               {
@@ -290,8 +290,8 @@ export default function IlustracionConfirmacion(props) {
             viewBox={{
               minX: 0,
               minY: 0,
-              width: 16.039794921875,
-              height: 15.9990234375,
+              width: 16.039710998535156,
+              height: 15.999146461486816,
             }}
             paths={[
               {
@@ -317,8 +317,8 @@ export default function IlustracionConfirmacion(props) {
             viewBox={{
               minX: 0,
               minY: 0,
-              width: 9.779052734375,
-              height: 9.75439453125,
+              width: 9.779108047485352,
+              height: 9.754371643066406,
             }}
             paths={[
               {
@@ -344,8 +344,8 @@ export default function IlustracionConfirmacion(props) {
             viewBox={{
               minX: 0,
               minY: 0,
-              width: 9.779052734375,
-              height: 9.75439453125,
+              width: 9.779108047485352,
+              height: 9.754371643066406,
             }}
             paths={[
               {
@@ -371,8 +371,8 @@ export default function IlustracionConfirmacion(props) {
             viewBox={{
               minX: 0,
               minY: 0,
-              width: 171.272216796875,
-              height: 0.89208984375,
+              width: 171.27220153808594,
+              height: 0.8921095132827759,
             }}
             paths={[
               {
@@ -398,8 +398,8 @@ export default function IlustracionConfirmacion(props) {
             viewBox={{
               minX: 0,
               minY: 0,
-              width: 26.47216796875,
-              height: 31.24658203125,
+              width: 26.472070693969727,
+              height: 31.24637794494629,
             }}
             paths={[
               {
@@ -425,8 +425,8 @@ export default function IlustracionConfirmacion(props) {
             viewBox={{
               minX: 0,
               minY: 0,
-              width: 63.75341796875,
-              height: 58.6728515625,
+              width: 63.75352478027344,
+              height: 58.672698974609375,
             }}
             paths={[
               {
@@ -452,8 +452,8 @@ export default function IlustracionConfirmacion(props) {
             viewBox={{
               minX: 0,
               minY: 0,
-              width: 32.197265625,
-              height: 32.11572265625,
+              width: 32.197383880615234,
+              height: 32.115943908691406,
             }}
             paths={[
               {
@@ -479,8 +479,8 @@ export default function IlustracionConfirmacion(props) {
             viewBox={{
               minX: 0,
               minY: 0,
-              width: 39.873046875,
-              height: 44.72802734375,
+              width: 39.873023986816406,
+              height: 44.72810363769531,
             }}
             paths={[
               {
@@ -506,8 +506,8 @@ export default function IlustracionConfirmacion(props) {
             viewBox={{
               minX: 0,
               minY: 0,
-              width: 29.040283203125,
-              height: 27.98681640625,
+              width: 29.04037857055664,
+              height: 27.986858367919922,
             }}
             paths={[
               {
@@ -533,8 +533,8 @@ export default function IlustracionConfirmacion(props) {
             viewBox={{
               minX: 0,
               minY: 0,
-              width: 45.229736328125,
-              height: 68.109375,
+              width: 45.22972869873047,
+              height: 68.10943603515625,
             }}
             paths={[
               {
@@ -560,8 +560,8 @@ export default function IlustracionConfirmacion(props) {
             viewBox={{
               minX: 0,
               minY: 0,
-              width: 8.26123046875,
-              height: 28.08642578125,
+              width: 8.26132583618164,
+              height: 28.086284637451172,
             }}
             paths={[
               {
@@ -587,8 +587,8 @@ export default function IlustracionConfirmacion(props) {
             viewBox={{
               minX: 0,
               minY: 0,
-              width: 23.4306640625,
-              height: 9.39306640625,
+              width: 23.43077850341797,
+              height: 9.393013954162598,
             }}
             paths={[
               {
@@ -614,8 +614,8 @@ export default function IlustracionConfirmacion(props) {
             viewBox={{
               minX: 0,
               minY: 0,
-              width: 24.166748046875,
-              height: 27.44189453125,
+              width: 24.16681671142578,
+              height: 27.44173240661621,
             }}
             paths={[
               {
@@ -641,8 +641,8 @@ export default function IlustracionConfirmacion(props) {
             viewBox={{
               minX: 0,
               minY: 0,
-              width: 21.322265625,
-              height: 20.5302734375,
+              width: 21.322174072265625,
+              height: 20.53011703491211,
             }}
             paths={[
               {
@@ -668,8 +668,8 @@ export default function IlustracionConfirmacion(props) {
             viewBox={{
               minX: 0,
               minY: 0,
-              width: 76.934326171875,
-              height: 104.00146484375,
+              width: 76.93431854248047,
+              height: 104.00137329101562,
             }}
             paths={[
               {
@@ -695,8 +695,8 @@ export default function IlustracionConfirmacion(props) {
             viewBox={{
               minX: 0,
               minY: 0,
-              width: 76.934326171875,
-              height: 104.0009765625,
+              width: 76.93431854248047,
+              height: 104.00106048583984,
             }}
             paths={[
               {
@@ -722,8 +722,8 @@ export default function IlustracionConfirmacion(props) {
             viewBox={{
               minX: 0,
               minY: 0,
-              width: 76.021728515625,
-              height: 136.77001953125,
+              width: 76.02161407470703,
+              height: 136.769775390625,
             }}
             paths={[
               {
@@ -749,8 +749,8 @@ export default function IlustracionConfirmacion(props) {
             viewBox={{
               minX: 0,
               minY: 0,
-              width: 38.01806640625,
-              height: 51.7421875,
+              width: 38.018062591552734,
+              height: 51.74235153198242,
             }}
             paths={[
               {
@@ -776,8 +776,8 @@ export default function IlustracionConfirmacion(props) {
             viewBox={{
               minX: 0,
               minY: 0,
-              width: 45.948486328125,
-              height: 98.6005859375,
+              width: 45.9483757019043,
+              height: 98.60041046142578,
             }}
             paths={[
               {
@@ -803,8 +803,8 @@ export default function IlustracionConfirmacion(props) {
             viewBox={{
               minX: 0,
               minY: 0,
-              width: 32.164794921875,
-              height: 32.083984375,
+              width: 32.16491625919116,
+              height: 32.08355322996613,
             }}
             paths={[
               {
@@ -832,8 +832,8 @@ export default function IlustracionConfirmacion(props) {
             viewBox={{
               minX: 0,
               minY: 0,
-              width: 27.984375,
-              height: 12.994140625,
+              width: 27.984493255615234,
+              height: 12.994298934936523,
             }}
             paths={[
               {
@@ -859,8 +859,8 @@ export default function IlustracionConfirmacion(props) {
             viewBox={{
               minX: 0,
               minY: 0,
-              width: 13.793212890625,
-              height: 20.1884765625,
+              width: 13.793163299560547,
+              height: 20.18840789794922,
             }}
             paths={[
               {

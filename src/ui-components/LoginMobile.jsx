@@ -78,7 +78,7 @@ export default function LoginMobile(props) {
         height="unset"
         shrink="0"
         alignSelf="stretch"
-        backgroundColor="rgba(227,232,84,1)"
+        backgroundColor="rgba(109,182,88,1)"
         size="default"
         isDisabled={false}
         variation="primary"

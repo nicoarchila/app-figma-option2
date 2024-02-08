@@ -45,8 +45,8 @@ export default function IlustracionLogin(props) {
           viewBox={{
             minX: 0,
             minY: 0,
-            width: 128.89892578125,
-            height: 100.734375,
+            width: 128.8990020751953,
+            height: 100.73420715332031,
           }}
           paths={[
             {
@@ -72,8 +72,8 @@ export default function IlustracionLogin(props) {
           viewBox={{
             minX: 0,
             minY: 0,
-            width: 70.656982421875,
-            height: 94.05419921875,
+            width: 70.65707397460938,
+            height: 94.0543441772461,
           }}
           paths={[
             {
@@ -99,8 +99,8 @@ export default function IlustracionLogin(props) {
           viewBox={{
             minX: 0,
             minY: 0,
-            width: 177.042724609375,
-            height: 138.3896484375,
+            width: 177.04283142089844,
+            height: 138.38967895507812,
           }}
           paths={[
             {
@@ -126,8 +126,8 @@ export default function IlustracionLogin(props) {
           viewBox={{
             minX: 0,
             minY: 0,
-            width: 97.047607421875,
-            height: 129.18359375,
+            width: 97.04753112792969,
+            height: 129.1836395263672,
           }}
           paths={[
             {
@@ -153,8 +153,8 @@ export default function IlustracionLogin(props) {
           viewBox={{
             minX: 0,
             minY: 0,
-            width: 213.5458984375,
-            height: 303.33447265625,
+            width: 213.54600524902344,
+            height: 303.3345642089844,
           }}
           paths={[
             {
@@ -180,13 +180,13 @@ export default function IlustracionLogin(props) {
           viewBox={{
             minX: 0,
             minY: 0,
-            width: 169.082275390625,
-            height: 303.33251953125,
+            width: 169.0821990966797,
+            height: 303.332275390625,
           }}
           paths={[
             {
               d: "M169.082 303.332L0.000286532 303.332L0.000286532 84.4521C-0.0463859 66.6082 5.60981 49.2152 16.1454 34.8056C16.5337 34.2768 16.9211 33.7548 17.3206 33.2386C22.4166 26.5617 28.481 20.6816 35.3136 15.7921C35.6995 15.5116 36.087 15.2359 36.4803 14.9602C42.1976 11.0078 48.3822 7.77672 54.8933 5.34061C55.2799 5.19421 55.6736 5.04752 56.0673 4.90683C61.956 2.80749 68.0603 1.36946 74.2675 0.619277C74.6523 0.566763 75.0473 0.52567 75.4424 0.484577C81.4914 -0.161526 87.592 -0.161526 93.6409 0.484577C94.0349 0.52567 94.43 0.566758 94.8193 0.619839C101.025 1.37007 107.128 2.80793 113.015 4.90685C113.409 5.04755 113.802 5.19423 114.19 5.34092C120.621 7.7463 126.733 10.9291 132.389 14.8184C132.782 15.0881 133.175 15.3638 133.563 15.6395C137.393 18.3705 140.99 21.413 144.318 24.736C146.987 27.4014 149.474 30.2425 151.763 33.2403C152.161 33.7549 152.548 34.2768 152.936 34.8048C163.472 49.2146 169.129 66.6078 169.082 84.4521L169.082 303.332Z",
-              fill: "rgba(227,232,84,1)",
+              fill: "rgba(109,182,88,1)",
               fillRule: "nonzero",
             },
           ]}
@@ -207,8 +207,8 @@ export default function IlustracionLogin(props) {
           viewBox={{
             minX: 0,
             minY: 0,
-            width: 18.721923828125,
-            height: 18.70263671875,
+            width: 18.721839904785156,
+            height: 18.702709197998047,
           }}
           paths={[
             {
@@ -234,8 +234,8 @@ export default function IlustracionLogin(props) {
           viewBox={{
             minX: 0,
             minY: 0,
-            width: 10.586669921875,
-            height: 27.6376953125,
+            width: 10.586633682250977,
+            height: 27.63792610168457,
           }}
           paths={[
             {
@@ -261,8 +261,8 @@ export default function IlustracionLogin(props) {
           viewBox={{
             minX: 0,
             minY: 0,
-            width: 22.542724609375,
-            height: 8.70068359375,
+            width: 22.542675018310547,
+            height: 8.700775146484375,
           }}
           paths={[
             {
@@ -288,8 +288,8 @@ export default function IlustracionLogin(props) {
           viewBox={{
             minX: 0,
             minY: 0,
-            width: 10.586669921875,
-            height: 27.6376953125,
+            width: 10.586633682250977,
+            height: 27.63792610168457,
           }}
           paths={[
             {
@@ -315,8 +315,8 @@ export default function IlustracionLogin(props) {
           viewBox={{
             minX: 0,
             minY: 0,
-            width: 22.542724609375,
-            height: 8.70068359375,
+            width: 22.542675018310547,
+            height: 8.700775146484375,
           }}
           paths={[
             {
@@ -342,8 +342,8 @@ export default function IlustracionLogin(props) {
           viewBox={{
             minX: 0,
             minY: 0,
-            width: 40.104248046875,
-            height: 79.19580078125,
+            width: 40.10420608520508,
+            height: 79.19598388671875,
           }}
           paths={[
             {
@@ -369,8 +369,8 @@ export default function IlustracionLogin(props) {
           viewBox={{
             minX: 0,
             minY: 0,
-            width: 18.74365234375,
-            height: 81.35205078125,
+            width: 18.743751525878906,
+            height: 81.35199737548828,
           }}
           paths={[
             {
@@ -396,8 +396,8 @@ export default function IlustracionLogin(props) {
           viewBox={{
             minX: 0,
             minY: 0,
-            width: 28.7392578125,
-            height: 28.7099609375,
+            width: 28.73920249938965,
+            height: 28.70985984802246,
           }}
           paths={[
             {
@@ -423,8 +423,8 @@ export default function IlustracionLogin(props) {
           viewBox={{
             minX: 0,
             minY: 0,
-            width: 47.850830078125,
-            height: 79.99755859375,
+            width: 47.85078811645508,
+            height: 79.99752044677734,
           }}
           paths={[
             {
@@ -450,8 +450,8 @@ export default function IlustracionLogin(props) {
           viewBox={{
             minX: 0,
             minY: 0,
-            width: 25.255615234375,
-            height: 31.7119140625,
+            width: 25.255706787109375,
+            height: 31.712059020996094,
           }}
           paths={[
             {
@@ -477,8 +477,8 @@ export default function IlustracionLogin(props) {
           viewBox={{
             minX: 0,
             minY: 0,
-            width: 20.70703125,
-            height: 37.55810546875,
+            width: 20.707082748413086,
+            height: 37.557918548583984,
           }}
           paths={[
             {
@@ -504,8 +504,8 @@ export default function IlustracionLogin(props) {
           viewBox={{
             minX: 0,
             minY: 0,
-            width: 50.947998046875,
-            height: 97.0205078125,
+            width: 50.94789505004883,
+            height: 97.02030181884766,
           }}
           paths={[
             {
@@ -531,8 +531,8 @@ export default function IlustracionLogin(props) {
           viewBox={{
             minX: 0,
             minY: 0,
-            width: 33.584716796875,
-            height: 33.53515625,
+            width: 33.58469009399414,
+            height: 33.535377502441406,
           }}
           paths={[
             {
@@ -558,8 +558,8 @@ export default function IlustracionLogin(props) {
           viewBox={{
             minX: 0,
             minY: 0,
-            width: 433.333740234375,
-            height: 1.3916015625,
+            width: 433.3336486816406,
+            height: 1.3918017148971558,
           }}
           paths={[
             {
@@ -585,8 +585,8 @@ export default function IlustracionLogin(props) {
           viewBox={{
             minX: 0,
             minY: 0,
-            width: 83.663330078125,
-            height: 177.09130859375,
+            width: 83.66322326660156,
+            height: 177.09140014648438,
           }}
           paths={[
             {
@@ -612,8 +612,8 @@ export default function IlustracionLogin(props) {
           viewBox={{
             minX: 0,
             minY: 0,
-            width: 83.663330078125,
-            height: 1.1689453125,
+            width: 83.66322326660156,
+            height: 1.168919324874878,
           }}
           paths={[
             {
@@ -639,8 +639,8 @@ export default function IlustracionLogin(props) {
           viewBox={{
             minX: 0,
             minY: 0,
-            width: 83.663330078125,
-            height: 1.1689453125,
+            width: 83.66322326660156,
+            height: 1.168919324874878,
           }}
           paths={[
             {
@@ -666,8 +666,8 @@ export default function IlustracionLogin(props) {
           viewBox={{
             minX: 0,
             minY: 0,
-            width: 1.170166015625,
-            height: 177.67578125,
+            width: 1.1701149940490723,
+            height: 177.6757354736328,
           }}
           paths={[
             {
@@ -693,8 +693,8 @@ export default function IlustracionLogin(props) {
           viewBox={{
             minX: 0,
             minY: 0,
-            width: 1.170166015625,
-            height: 177.67578125,
+            width: 1.1701149940490723,
+            height: 177.6757354736328,
           }}
           paths={[
             {

@@ -45,8 +45,8 @@ export default function IlustracionProductInformation(props) {
           viewBox={{
             minX: 0,
             minY: 0,
-            width: 255.983154296875,
-            height: 253.607421875,
+            width: 255.98316955566406,
+            height: 253.6075897216797,
           }}
           paths={[
             {
@@ -72,8 +72,8 @@ export default function IlustracionProductInformation(props) {
           viewBox={{
             minX: 0,
             minY: 0,
-            width: 76.13720703125,
-            height: 118.53759765625,
+            width: 76.13740539550781,
+            height: 118.5376968383789,
           }}
           paths={[
             {
@@ -99,8 +99,8 @@ export default function IlustracionProductInformation(props) {
           viewBox={{
             minX: 0,
             minY: 0,
-            width: 136.00146484375,
-            height: 102.29931640625,
+            width: 136.00125122070312,
+            height: 102.29944610595703,
           }}
           paths={[
             {
@@ -126,8 +126,8 @@ export default function IlustracionProductInformation(props) {
           viewBox={{
             minX: 0,
             minY: 0,
-            width: 85.82958984375,
-            height: 234.21484375,
+            width: 85.82935333251953,
+            height: 234.21502685546875,
           }}
           paths={[
             {
@@ -153,8 +153,8 @@ export default function IlustracionProductInformation(props) {
           viewBox={{
             minX: 0,
             minY: 0,
-            width: 198.6103515625,
-            height: 8.00146484375,
+            width: 198.61024475097656,
+            height: 8.001303672790527,
           }}
           paths={[
             {
@@ -180,8 +180,8 @@ export default function IlustracionProductInformation(props) {
           viewBox={{
             minX: 0,
             minY: 0,
-            width: 34.298828125,
-            height: 23.6044921875,
+            width: 34.29874038696289,
+            height: 23.604631423950195,
           }}
           paths={[
             {
@@ -207,8 +207,8 @@ export default function IlustracionProductInformation(props) {
           viewBox={{
             minX: 0,
             minY: 0,
-            width: 21.88427734375,
-            height: 19.31591796875,
+            width: 21.884464263916016,
+            height: 19.315797805786133,
           }}
           paths={[
             {
@@ -234,8 +234,8 @@ export default function IlustracionProductInformation(props) {
           viewBox={{
             minX: 0,
             minY: 0,
-            width: 11.83251953125,
-            height: 19.54345703125,
+            width: 11.832352638244629,
+            height: 19.543590545654297,
           }}
           paths={[
             {
@@ -261,8 +261,8 @@ export default function IlustracionProductInformation(props) {
           viewBox={{
             minX: 0,
             minY: 0,
-            width: 16.46923828125,
-            height: 9.66845703125,
+            width: 16.468939480044355,
+            height: 9.66842009496122,
           }}
           paths={[
             {
@@ -290,8 +290,8 @@ export default function IlustracionProductInformation(props) {
           viewBox={{
             minX: 0,
             minY: 0,
-            width: 8.1787109375,
-            height: 19.896484375,
+            width: 8.178719520568848,
+            height: 19.89643096923828,
           }}
           paths={[
             {
@@ -317,8 +317,8 @@ export default function IlustracionProductInformation(props) {
           viewBox={{
             minX: 0,
             minY: 0,
-            width: 16.26904296875,
-            height: 8.5732421875,
+            width: 16.26925274644327,
+            height: 8.57355270248263,
           }}
           paths={[
             {
@@ -346,8 +346,8 @@ export default function IlustracionProductInformation(props) {
           viewBox={{
             minX: 0,
             minY: 0,
-            width: 12.7939453125,
-            height: 21.62890625,
+            width: 12.79395580291748,
+            height: 21.62868309020996,
           }}
           paths={[
             {
@@ -373,8 +373,8 @@ export default function IlustracionProductInformation(props) {
           viewBox={{
             minX: 0,
             minY: 0,
-            width: 49.54296875,
-            height: 85.2138671875,
+            width: 49.54294967651367,
+            height: 85.21388244628906,
           }}
           paths={[
             {
@@ -400,8 +400,8 @@ export default function IlustracionProductInformation(props) {
           viewBox={{
             minX: 0,
             minY: 0,
-            width: 19.70947265625,
-            height: 19.65185546875,
+            width: 19.709375381469727,
+            height: 19.65203094482422,
           }}
           paths={[
             {
@@ -427,8 +427,8 @@ export default function IlustracionProductInformation(props) {
           viewBox={{
             minX: 0,
             minY: 0,
-            width: 24.8984375,
-            height: 41.7197265625,
+            width: 24.898591995239258,
+            height: 41.7195930480957,
           }}
           paths={[
             {
@@ -454,8 +454,8 @@ export default function IlustracionProductInformation(props) {
           viewBox={{
             minX: 0,
             minY: 0,
-            width: 27.99169921875,
-            height: 30.41943359375,
+            width: 27.991456985473633,
+            height: 30.41938591003418,
           }}
           paths={[
             {
@@ -481,8 +481,8 @@ export default function IlustracionProductInformation(props) {
           viewBox={{
             minX: 0,
             minY: 0,
-            width: 16.6044921875,
-            height: 22.84716796875,
+            width: 16.604278564453125,
+            height: 22.84712028503418,
           }}
           paths={[
             {
@@ -508,8 +508,8 @@ export default function IlustracionProductInformation(props) {
           viewBox={{
             minX: 0,
             minY: 0,
-            width: 28.96044921875,
-            height: 37.63818359375,
+            width: 28.96034049987793,
+            height: 37.63814163208008,
           }}
           paths={[
             {
@@ -535,8 +535,8 @@ export default function IlustracionProductInformation(props) {
           viewBox={{
             minX: 0,
             minY: 0,
-            width: 149.65966796875,
-            height: 98.416015625,
+            width: 149.65985107421875,
+            height: 98.4160385131836,
           }}
           paths={[
             {
@@ -562,8 +562,8 @@ export default function IlustracionProductInformation(props) {
           viewBox={{
             minX: 0,
             minY: 0,
-            width: 29.2900390625,
-            height: 29.20458984375,
+            width: 29.289997100830078,
+            height: 29.20475959777832,
           }}
           paths={[
             {
@@ -589,13 +589,13 @@ export default function IlustracionProductInformation(props) {
           viewBox={{
             minX: 0,
             minY: 0,
-            width: 132.80810546875,
-            height: 5.20068359375,
+            width: 132.80812072753906,
+            height: 5.200847625732422,
           }}
           paths={[
             {
               d: "M130.2 5.20085L2.60801 5.20085C1.91633 5.20085 1.25297 4.92687 0.763871 4.4392C0.274773 3.95153 0 3.2901 0 2.60042C0 1.91075 0.274773 1.24932 0.763871 0.761648C1.25297 0.273973 1.91633 0 2.60801 0L130.2 0C130.892 0 131.555 0.273973 132.044 0.761648C132.533 1.24932 132.808 1.91075 132.808 2.60042C132.808 3.2901 132.533 3.95153 132.044 4.4392C131.555 4.92687 130.892 5.20085 130.2 5.20085Z",
-              fill: "rgba(227,232,84,1)",
+              fill: "rgba(109,182,88,1)",
               fillRule: "nonzero",
             },
           ]}
@@ -616,13 +616,13 @@ export default function IlustracionProductInformation(props) {
           viewBox={{
             minX: 0,
             minY: 0,
-            width: 132.80810546875,
-            height: 5.20068359375,
+            width: 132.80807495117188,
+            height: 5.200847625732422,
           }}
           paths={[
             {
               d: "M130.2 5.20085L2.60801 5.20085C1.91633 5.20085 1.25297 4.92687 0.763871 4.4392C0.274773 3.95153 0 3.2901 0 2.60042C0 1.91075 0.274773 1.24932 0.763871 0.761648C1.25297 0.273973 1.91633 5.66265e-27 2.60801 5.66265e-27L130.2 5.66265e-27C130.892 -4.54821e-14 131.555 0.273973 132.044 0.761648C132.533 1.24932 132.808 1.91075 132.808 2.60042C132.808 3.2901 132.533 3.95153 132.044 4.4392C131.555 4.92687 130.892 5.20085 130.2 5.20085Z",
-              fill: "rgba(227,232,84,1)",
+              fill: "rgba(109,182,88,1)",
               fillRule: "nonzero",
             },
           ]}
@@ -643,13 +643,13 @@ export default function IlustracionProductInformation(props) {
           viewBox={{
             minX: 0,
             minY: 0,
-            width: 24.07373046875,
-            height: 5.20068359375,
+            width: 24.073970794677734,
+            height: 5.200847625732422,
           }}
           paths={[
             {
               d: "M21.466 5.20085L2.60801 5.20085C1.91633 5.20085 1.25297 4.92687 0.763871 4.4392C0.274773 3.95153 0 3.2901 0 2.60042C0 1.91075 0.274773 1.24932 0.763871 0.761648C1.25297 0.273973 1.91633 0 2.60801 0L21.466 0C22.1576 0 22.821 0.273973 23.3101 0.761648C23.7992 1.24932 24.074 1.91075 24.074 2.60042C24.074 3.2901 23.7992 3.95153 23.3101 4.4392C22.821 4.92687 22.1576 5.20085 21.466 5.20085Z",
-              fill: "rgba(227,232,84,1)",
+              fill: "rgba(109,182,88,1)",
               fillRule: "nonzero",
             },
           ]}
@@ -670,13 +670,13 @@ export default function IlustracionProductInformation(props) {
           viewBox={{
             minX: 0,
             minY: 0,
-            width: 87.0673828125,
-            height: 5.20068359375,
+            width: 87.0675277709961,
+            height: 5.200847625732422,
           }}
           paths={[
             {
               d: "M84.4595 5.20085L2.60801 5.20085C1.91633 5.20085 1.25297 4.92687 0.763871 4.4392C0.274773 3.95153 0 3.2901 0 2.60042C0 1.91075 0.274773 1.24932 0.763871 0.761648C1.25297 0.273973 1.91633 0 2.60801 0L84.4595 0C85.1512 0 85.8146 0.273973 86.3037 0.761648C86.7928 1.24932 87.0675 1.91075 87.0675 2.60042C87.0675 3.2901 86.7928 3.95153 86.3037 4.4392C85.8146 4.92687 85.1512 5.20085 84.4595 5.20085Z",
-              fill: "rgba(227,232,84,1)",
+              fill: "rgba(109,182,88,1)",
               fillRule: "nonzero",
             },
           ]}
@@ -697,13 +697,13 @@ export default function IlustracionProductInformation(props) {
           viewBox={{
             minX: 0,
             minY: 0,
-            width: 66.6904296875,
-            height: 5.20068359375,
+            width: 66.6903076171875,
+            height: 5.200847625732422,
           }}
           paths={[
             {
               d: "M64.0823 5.20085L2.60801 5.20085C1.91633 5.20085 1.25297 4.92687 0.76387 4.4392C0.274773 3.95153 0 3.2901 0 2.60042C0 1.91075 0.274773 1.24932 0.76387 0.761648C1.25297 0.273973 1.91633 0 2.60801 0L64.0823 0C64.774 0 65.4373 0.273973 65.9264 0.761648C66.4155 1.24932 66.6903 1.91075 66.6903 2.60042C66.6903 3.2901 66.4155 3.95153 65.9264 4.4392C65.4373 4.92687 64.774 5.20085 64.0823 5.20085Z",
-              fill: "rgba(227,232,84,1)",
+              fill: "rgba(109,182,88,1)",
               fillRule: "nonzero",
             },
           ]}

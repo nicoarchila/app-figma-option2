@@ -31,15 +31,15 @@ export default function HeroLayout2(props) {
     },
     {
       overrides: {
-        "Full stack": { color: "rgba(111,131,195,1)" },
+        "Full stack": { color: "rgba(116,133,170,1)" },
         "Build full-stack web and mobile apps in hours. Easy to start, easy to scale":
-          { color: "rgba(241,244,169,1)" },
+          { color: "rgba(183,219,173,1)" },
         "AWS Amplify is a complete solution that lets frontend web and mobile developers easily build, ship, and host full-stack applications on AWS, with the flexibility to leverage the breadth of AWS services as use cases evolve. No cloud expertise needed.":
-          { color: "rgba(238,241,152,1)" },
+          { color: "rgba(168,211,156,1)" },
         "Main Body": {},
         Button: {},
         "Type Lock Up": {},
-        HeroLayout2: { backgroundColor: "rgba(114,116,42,1)" },
+        HeroLayout2: { backgroundColor: "rgba(54,90,43,1)" },
       },
       variantValues: { colorMode: "dark" },
     },
@@ -59,7 +59,7 @@ export default function HeroLayout2(props) {
       overflow="hidden"
       position="relative"
       padding="160px 240px 160px 240px"
-      backgroundColor="rgba(241,244,169,1)"
+      backgroundColor="rgba(183,219,173,1)"
       display="flex"
       {...getOverrideProps(overrides, "HeroLayout2")}
       {...rest}
@@ -84,7 +84,7 @@ export default function HeroLayout2(props) {
           fontFamily="Inter"
           fontSize="16px"
           fontWeight="700"
-          color="rgba(183,187,68,1)"
+          color="rgba(86,145,70,1)"
           lineHeight="24px"
           textAlign="center"
           display="block"
