@@ -62,7 +62,7 @@ export default function NavBarHeaderMobile(props) {
           shrink="0"
           position="relative"
           padding="0px 0px 0px 0px"
-          backgroundColor="rgba(109,182,88,1)"
+          backgroundColor="rgba(253,217,38,1)"
           children={menuBtn}
           {...getOverrideProps(overrides, "rectangulo")}
         ></View>

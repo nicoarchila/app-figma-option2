@@ -136,7 +136,7 @@ export default function FormularioLogin(props) {
         fontFamily="Inter"
         fontSize="20px"
         fontWeight="700"
-        color="rgba(86,145,70,1)"
+        color="rgba(200,171,30,1)"
         lineHeight="30px"
         textAlign="left"
         display="block"
