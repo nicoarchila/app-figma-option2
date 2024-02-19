@@ -323,7 +323,7 @@ export default function Ampligram(props) {
             fontFamily="Inter"
             fontSize="14px"
             fontWeight="400"
-            color="rgba(33,33,33,1)"
+            color="rgba(72,81,106,1)"
             lineHeight="24px"
             textAlign="left"
             display="block"
