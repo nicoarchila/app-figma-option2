@@ -76,7 +76,10 @@ export default function ActionCard(props) {
         "Frame 417": {},
         "Main Text": { height: "160px" },
         Button38733125: {},
-        Button29766759: { children: "Pagar" },
+        Button29766759: {
+          backgroundColor: "rgba(109,182,88,1)",
+          children: "Pagar",
+        },
         "Group 188": {},
         "Card Area": {},
         ActionCard: {},
@@ -449,7 +452,7 @@ export default function ActionCard(props) {
             position="absolute"
             top="0px"
             left="171.92px"
-            backgroundColor="rgba(109,182,88,1)"
+            backgroundColor="rgba(54,90,43,1)"
             size="default"
             isDisabled={false}
             variation="primary"
