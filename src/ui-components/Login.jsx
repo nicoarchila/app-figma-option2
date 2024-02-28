@@ -72,7 +72,7 @@ export default function Login(props) {
         height="unset"
         shrink="0"
         alignSelf="stretch"
-        backgroundColor="rgba(109,182,88,1)"
+        backgroundColor="rgba(253,217,38,1)"
         size="default"
         isDisabled={false}
         variation="primary"

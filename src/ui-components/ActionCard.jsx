@@ -69,18 +69,15 @@ export default function ActionCard(props) {
         "Saldo actual": {},
         "$785.902,00": {},
         Saldo: {},
-        "Fecha l\u00EDmite de pago": { color: "rgba(0,0,0,1)" },
-        "04/06/2023": { color: "rgba(0,0,0,1)" },
+        "Fecha l\u00EDmite de pago": {},
+        "04/06/2023": {},
         Producto38733416: { display: "block" },
         "Product Title": {},
         "Frame 417": {},
         "Main Text": { height: "160px" },
         Button38733125: {},
-        Button29766759: {
-          backgroundColor: "rgba(109,182,88,1)",
-          children: "Pagar",
-        },
-        "Group 188": {},
+        Button29766759: { left: "172px", children: "Pagar" },
+        "Group 188": { width: "324.08px" },
         "Card Area": {},
         ActionCard: {},
       },
@@ -151,7 +148,7 @@ export default function ActionCard(props) {
               fontFamily="Inter"
               fontSize="16px"
               fontWeight="700"
-              color="rgba(0,0,0,1)"
+              color="rgba(45,43,42,1)"
               lineHeight="20px"
               textAlign="left"
               display="block"
@@ -223,7 +220,7 @@ export default function ActionCard(props) {
                 fontFamily="Inter"
                 fontSize="16px"
                 fontWeight="700"
-                color="rgba(0,0,0,1)"
+                color="rgba(45,43,42,1)"
                 lineHeight="20px"
                 textAlign="left"
                 display="block"
@@ -256,7 +253,7 @@ export default function ActionCard(props) {
                   fontFamily="Inter"
                   fontSize="16px"
                   fontWeight="400"
-                  color="rgba(0,0,0,1)"
+                  color="rgba(45,43,42,1)"
                   lineHeight="24px"
                   textAlign="left"
                   display="block"
@@ -280,7 +277,7 @@ export default function ActionCard(props) {
                   fontFamily="Inter"
                   fontSize="16px"
                   fontWeight="500"
-                  color="rgba(0,0,0,1)"
+                  color="rgba(45,43,42,1)"
                   lineHeight="20px"
                   textAlign="right"
                   display="block"
@@ -315,7 +312,7 @@ export default function ActionCard(props) {
                   fontFamily="Inter"
                   fontSize="16px"
                   fontWeight="400"
-                  color="rgba(0,0,0,1)"
+                  color="rgba(45,43,42,1)"
                   lineHeight="24px"
                   textAlign="left"
                   display="block"
@@ -338,7 +335,7 @@ export default function ActionCard(props) {
                   fontFamily="Inter"
                   fontSize="16px"
                   fontWeight="500"
-                  color="rgba(0,0,0,1)"
+                  color="rgba(45,43,42,1)"
                   lineHeight="20px"
                   textAlign="right"
                   display="block"
@@ -373,7 +370,7 @@ export default function ActionCard(props) {
                   fontFamily="Inter"
                   fontSize="16px"
                   fontWeight="400"
-                  color="rgba(24,51,114,1)"
+                  color="rgba(45,43,42,1)"
                   lineHeight="24px"
                   textAlign="left"
                   display="block"
@@ -397,7 +394,7 @@ export default function ActionCard(props) {
                   fontFamily="Inter"
                   fontSize="16px"
                   fontWeight="500"
-                  color="rgba(24,51,114,1)"
+                  color="rgba(45,43,42,1)"
                   lineHeight="20px"
                   textAlign="right"
                   display="block"
@@ -437,7 +434,7 @@ export default function ActionCard(props) {
             position="absolute"
             top="0px"
             left="0px"
-            backgroundColor="rgba(20,42,93,1)"
+            backgroundColor="rgba(37,35,35,1)"
             size="default"
             isDisabled={false}
             variation="primary"
@@ -452,7 +449,7 @@ export default function ActionCard(props) {
             position="absolute"
             top="0px"
             left="171.92px"
-            backgroundColor="rgba(54,90,43,1)"
+            backgroundColor="rgba(253,217,38,1)"
             size="default"
             isDisabled={false}
             variation="primary"

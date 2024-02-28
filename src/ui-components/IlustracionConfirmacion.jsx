@@ -59,7 +59,7 @@ export default function IlustracionConfirmacion(props) {
             fontFamily="Inter"
             fontSize="32px"
             fontWeight="500"
-            color="rgba(0,0,0,1)"
+            color="rgba(45,43,42,1)"
             lineHeight="40px"
             textAlign="left"
             display="block"

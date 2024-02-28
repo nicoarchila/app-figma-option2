@@ -81,7 +81,7 @@ export default function FormularioConfiguracion(props) {
             fontFamily="Inter"
             fontSize="16px"
             fontWeight="600"
-            color="rgba(0,0,0,1)"
+            color="rgba(45,43,42,1)"
             lineHeight="20px"
             textAlign="left"
             display="block"
@@ -339,7 +339,7 @@ export default function FormularioConfiguracion(props) {
             position="absolute"
             top="0px"
             left="0px"
-            backgroundColor="rgba(20,42,93,1)"
+            backgroundColor="rgba(37,35,35,1)"
             size="large"
             isDisabled={false}
             variation="primary"
@@ -355,7 +355,7 @@ export default function FormularioConfiguracion(props) {
             bottom="0%"
             left="54.83%"
             right="0%"
-            backgroundColor="rgba(109,182,88,1)"
+            backgroundColor="rgba(253,217,38,1)"
             size="large"
             isDisabled={false}
             variation="primary"
